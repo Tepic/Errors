@@ -1,0 +1,879 @@
+Get:155 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-warehouse-ros amd64 0.9.0-0xenial-20180824-135147-0800 [92.4 kB]                                                                                                                                                                                                           
+Get:156 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-world-canvas-msgs amd64 0.2.0-1xenial-20180824-101942-0800 [90.2 kB]                                                                                                                                                                                                       
+Get:157 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-world-canvas-utils amd64 0.2.0-0xenial-20180824-102644-0800 [6,716 B]                                                                                                                                                                                                      
+Get:158 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-world-canvas-server amd64 0.2.0-0xenial-20180824-162443-0800 [27.8 kB]                                                                                                                                                                                                     
+Get:159 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-rapps amd64 2.3.7-0xenial-20180825-023841-0800 [496 kB]                                                                                                                                                                                                          
+Get:160 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-apps amd64 2.3.7-0xenial-20180825-060047-0800 [2,264 B]                                                                                                                                                                                                          
+Get:161 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-create amd64 2.3.1-0xenial-20180825-013712-0800 [1,744 B]                                                                                                                                                                                                        
+Get:162 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-dashboard amd64 2.3.1-0xenial-20180830-082454-0800 [4,900 B]                                                                                                                                                                                                     
+Get:163 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-gazebo amd64 2.2.3-0xenial-20180825-015637-0800 [10.3 kB]                                                                                                                                                                                                        
+Get:164 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-interactive-markers amd64 2.3.1-0xenial-20180825-013355-0800 [22.4 kB]                                                                                                                                                                                           
+Get:165 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-rviz-launchers amd64 2.3.1-0xenial-20180825-015218-0800 [9,740 B]                                                                                                                                                                                                
+Get:166 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-interactions amd64 2.3.1-0xenial-20180830-082609-0800 [1,834 B]                                                                                                                                                                                                  
+Get:167 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-yocs-math-toolkit amd64 0.8.2-0xenial-20180824-154954-0800 [18.9 kB]                                                                                                                                                                                                       
+Get:168 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-yocs-msgs amd64 0.6.3-0xenial-20180824-101453-0800 [94.7 kB]                                                                                                                                                                                                               
+Get:169 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-yocs-virtual-sensor amd64 0.8.2-0xenial-20180824-161532-0800 [66.7 kB]                                                                                                                                                                                                     
+Get:170 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-stage amd64 2.2.3-0xenial-20180825-030503-0800 [37.0 kB]                                                                                                                                                                                                         
+Get:171 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-stdr amd64 2.2.3-0xenial-20180825-030520-0800 [254 kB]                                                                                                                                                                                                           
+Get:172 http://packages.ros.org/ros/ubuntu xenial/main amd64 ros-kinetic-turtlebot-simulator amd64 2.2.3-0xenial-20180825-055903-0800 [1,876 B]                                                                                                                                                                                                     
+Fetched 20.9 MB in 25s (829 kB/s)                                                                                                                                                                                                                                                                                                                   
+Extracting templates from packages: 100%
+Preconfiguring packages ...
+(Reading database ... 706290 files and directories currently installed.)
+Preparing to unpack .../base-files_9.4ubuntu4.7_amd64.deb ...
+Unpacking base-files (9.4ubuntu4.7) over (9.4ubuntu4.6) ...
+Processing triggers for cracklib-runtime (2.9.2-1ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for install-info (6.1.0.dfsg.1-5) ...
+Processing triggers for plymouth-theme-ubuntu-text (0.9.2-3ubuntu13.5) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for initramfs-tools (0.122ubuntu8.11) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-34-generic
+
+gzip: stdout: No space left on device
+E: mkinitramfs failure find 141 cpio 141 gzip 1
+update-initramfs: failed for /boot/initrd.img-4.15.0-34-generic with 1.
+dpkg: error processing package initramfs-tools (--unpack):
+ subprocess installed post-installation script returned error exit status 1
+Errors were encountered while processing:
+ initramfs-tools
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+fiene@rosso:~/linux-4.9.84$ sudo apt-get install libelf-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+libelf-dev is already the newest version (0.165-3ubuntu1.1).
+The following packages were automatically installed and are no longer required:
+  bbswitch-dkms lib32gcc1 libc6-i386 libfcl0.5 libjansson4 libllvm5.0 libllvm5.0:i386 libvdpau1 libxnvctrl0 linux-headers-4.13.0-45 linux-headers-4.13.0-45-generic linux-headers-4.15.0-24 linux-headers-4.15.0-24-generic linux-headers-4.15.0-29 linux-headers-4.15.0-29-generic linux-headers-4.15.0-30 linux-headers-4.15.0-30-generic
+  linux-headers-4.15.0-32 linux-headers-4.15.0-32-generic linux-image-4.15.0-24-generic linux-image-4.15.0-29-generic linux-image-4.15.0-30-generic linux-image-4.15.0-32-generic linux-modules-4.15.0-24-generic linux-modules-4.15.0-29-generic linux-modules-4.15.0-30-generic linux-modules-4.15.0-32-generic
+  linux-modules-extra-4.15.0-29-generic linux-modules-extra-4.15.0-30-generic linux-modules-extra-4.15.0-32-generic mesa-vdpau-drivers python-bs4 python-funcsigs python-html5lib python-lxml python-mock python-pbr python-pyassimp ros-kinetic-moveit-msgs ros-kinetic-object-recognition-msgs ros-kinetic-srdfdom ros-kinetic-urdfdom-py
+  screen-resolution-extra vdpau-driver-all
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 550 not upgraded.
+2 not fully installed or removed.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Setting up base-files (9.4ubuntu4.7) ...
+Installing new version of config file /etc/issue ...
+Installing new version of config file /etc/issue.net ...
+Installing new version of config file /etc/lsb-release ...
+Setting up initramfs-tools (0.122ubuntu8.11) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for plymouth-theme-ubuntu-text (0.9.2-3ubuntu13.5) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for initramfs-tools (0.122ubuntu8.11) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-34-generic
+
+gzip: stdout: No space left on device
+E: mkinitramfs failure find 141 cpio 141 gzip 1
+update-initramfs: failed for /boot/initrd.img-4.15.0-34-generic with 1.
+dpkg: error processing package initramfs-tools (--configure):
+ subprocess installed post-installation script returned error exit status 1
+Errors were encountered while processing:
+ initramfs-tools
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+fiene@rosso:~/linux-4.9.84$ clear
+
+fiene@rosso:~/linux-4.9.84$ make menuconfig -j
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/mconf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/zconf.hash.c
+  SHIPPED scripts/kconfig/zconf.lex.c
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTCC  scripts/kconfig/lxdialog/checklist.o
+  HOSTCC  scripts/kconfig/lxdialog/util.o
+  HOSTCC  scripts/kconfig/lxdialog/inputbox.o
+  HOSTCC  scripts/kconfig/lxdialog/textbox.o
+  HOSTCC  scripts/kconfig/lxdialog/yesno.o
+  HOSTCC  scripts/kconfig/lxdialog/menubox.o
+  HOSTLD  scripts/kconfig/mconf
+scripts/kconfig/mconf  Kconfig
+.config:4240:warning: symbol value 'm' invalid for GPIO_MB86S7X
+
+
+*** End of the configuration.
+*** Execute 'make' to start the build or try 'make help'.
+
+fiene@rosso:~/linux-4.9.84$ sudo apt-get install libssl-dev kernel-packages
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package kernel-packages
+fiene@rosso:~/linux-4.9.84$ sudo apt-get install libssl-dev kernel-package
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+kernel-package is already the newest version (13.018).
+libssl-dev is already the newest version (1.0.2g-1ubuntu4.13).
+The following packages were automatically installed and are no longer required:
+  bbswitch-dkms lib32gcc1 libc6-i386 libfcl0.5 libjansson4 libllvm5.0 libllvm5.0:i386 libvdpau1 libxnvctrl0 linux-headers-4.13.0-45 linux-headers-4.13.0-45-generic linux-headers-4.15.0-24 linux-headers-4.15.0-24-generic linux-headers-4.15.0-29 linux-headers-4.15.0-29-generic linux-headers-4.15.0-30 linux-headers-4.15.0-30-generic
+  linux-headers-4.15.0-32 linux-headers-4.15.0-32-generic linux-image-4.15.0-24-generic linux-image-4.15.0-29-generic linux-image-4.15.0-30-generic linux-image-4.15.0-32-generic linux-modules-4.15.0-24-generic linux-modules-4.15.0-29-generic linux-modules-4.15.0-30-generic linux-modules-4.15.0-32-generic
+  linux-modules-extra-4.15.0-29-generic linux-modules-extra-4.15.0-30-generic linux-modules-extra-4.15.0-32-generic mesa-vdpau-drivers python-bs4 python-funcsigs python-html5lib python-lxml python-mock python-pbr python-pyassimp ros-kinetic-moveit-msgs ros-kinetic-object-recognition-msgs ros-kinetic-srdfdom ros-kinetic-urdfdom-py
+  screen-resolution-extra vdpau-driver-all
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 550 not upgraded.
+1 not fully installed or removed.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Setting up initramfs-tools (0.122ubuntu8.11) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for initramfs-tools (0.122ubuntu8.11) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-34-generic
+
+gzip: stdout: No space left on device
+E: mkinitramfs failure find 141 cpio 141 gzip 1
+update-initramfs: failed for /boot/initrd.img-4.15.0-34-generic with 1.
+dpkg: error processing package initramfs-tools (--configure):
+ subprocess installed post-installation script returned error exit status 1
+Errors were encountered while processing:
+ initramfs-tools
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+fiene@rosso:~/linux-4.9.84$ uname -r
+4.15.0-34-generic
+fiene@rosso:~/linux-4.9.84$ sudo apt autoremove
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages will be REMOVED:
+  bbswitch-dkms lib32gcc1 libc6-i386 libfcl0.5 libjansson4 libllvm5.0 libllvm5.0:i386 libvdpau1 libxnvctrl0 linux-headers-4.13.0-45 linux-headers-4.13.0-45-generic linux-headers-4.15.0-24 linux-headers-4.15.0-24-generic linux-headers-4.15.0-29 linux-headers-4.15.0-29-generic linux-headers-4.15.0-30 linux-headers-4.15.0-30-generic
+  linux-headers-4.15.0-32 linux-headers-4.15.0-32-generic linux-image-4.15.0-24-generic linux-image-4.15.0-29-generic linux-image-4.15.0-30-generic linux-image-4.15.0-32-generic linux-modules-4.15.0-24-generic linux-modules-4.15.0-29-generic linux-modules-4.15.0-30-generic linux-modules-4.15.0-32-generic
+  linux-modules-extra-4.15.0-29-generic linux-modules-extra-4.15.0-30-generic linux-modules-extra-4.15.0-32-generic mesa-vdpau-drivers python-bs4 python-funcsigs python-html5lib python-lxml python-mock python-pbr python-pyassimp ros-kinetic-moveit-msgs ros-kinetic-object-recognition-msgs ros-kinetic-srdfdom ros-kinetic-urdfdom-py
+  screen-resolution-extra vdpau-driver-all
+0 upgraded, 0 newly installed, 44 to remove and 545 not upgraded.
+1 not fully installed or removed.
+After this operation, 1,442 MB disk space will be freed.
+Do you want to continue? [Y/n] Y
+(Reading database ... 706289 files and directories currently installed.)
+Removing bbswitch-dkms (0.8-3ubuntu1) ...
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.15.0-24-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.15.0-24-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod....
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.15.0-29-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.15.0-29-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod.......
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.15.0-30-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.15.0-30-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod........
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.15.0-32-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.15.0-32-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod........
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.15.0-33-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.15.0-33-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod........
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.15.0-34-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.15.0-34-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod.......
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.4.0-128-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.4.0-128-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod....
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.4.0-130-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.4.0-130-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod....
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.4.0-133-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.4.0-133-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod....
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.4.0-134-generic (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.4.0-134-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod....
+
+DKMS: uninstall completed.
+
+-------- Uninstall Beginning --------
+Module:  bbswitch
+Version: 0.8
+Kernel:  4.9.84-rt62-preempt-rt (x86_64)
+-------------------------------------
+
+Status: Before uninstall, this module version was ACTIVE on this kernel.
+
+bbswitch.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/4.9.84-rt62-preempt-rt/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod........
+
+DKMS: uninstall completed.
+
+------------------------------
+Deleting module version: 0.8
+completely from the DKMS tree.
+------------------------------
+Done.
+Removing lib32gcc1 (1:6.0.1-0ubuntu1) ...
+Removing libc6-i386 (2.23-0ubuntu10) ...
+Removing libfcl0.5 (0.5.0-3osrf1~xenial3) ...
+Removing libjansson4:amd64 (2.7-3ubuntu0.1) ...
+Removing libllvm5.0:i386 (1:5.0-3~16.04.1) ...
+Removing libllvm5.0:amd64 (1:5.0-3~16.04.1) ...
+Removing vdpau-driver-all:amd64 (1.1.1-3ubuntu1) ...
+Removing mesa-vdpau-drivers:amd64 (18.0.5-0ubuntu0~16.04.1) ...
+Removing libvdpau1:amd64 (1.1.1-3ubuntu1) ...
+Removing libxnvctrl0:amd64 (396.24-0ubuntu0~gpu16.04.1) ...
+Removing linux-headers-4.13.0-45-generic (4.13.0-45.50~16.04.1) ...
+Removing linux-headers-4.13.0-45 (4.13.0-45.50~16.04.1) ...
+Removing linux-headers-4.15.0-24-generic (4.15.0-24.26~16.04.1) ...
+Removing linux-headers-4.15.0-24 (4.15.0-24.26~16.04.1) ...
+Removing linux-headers-4.15.0-29-generic (4.15.0-29.31~16.04.1) ...
+Removing linux-headers-4.15.0-29 (4.15.0-29.31~16.04.1) ...
+Removing linux-headers-4.15.0-30-generic (4.15.0-30.32~16.04.1) ...
+Removing linux-headers-4.15.0-30 (4.15.0-30.32~16.04.1) ...
+Removing linux-headers-4.15.0-32-generic (4.15.0-32.35~16.04.1) ...
+Removing linux-headers-4.15.0-32 (4.15.0-32.35~16.04.1) ...
+Removing linux-image-4.15.0-24-generic (4.15.0-24.26~16.04.1) ...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-4.15.0-24-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-4.15.0-34-generic
+Found initrd image: /boot/initrd.img-4.15.0-34-generic
+Found linux image: /boot/vmlinuz-4.15.0-33-generic
+Found initrd image: /boot/initrd.img-4.15.0-33-generic
+Found linux image: /boot/vmlinuz-4.15.0-32-generic
+Found initrd image: /boot/initrd.img-4.15.0-32-generic
+Found linux image: /boot/vmlinuz-4.15.0-30-generic
+Found initrd image: /boot/initrd.img-4.15.0-30-generic
+Found linux image: /boot/vmlinuz-4.15.0-29-generic
+Found initrd image: /boot/initrd.img-4.15.0-29-generic
+Found linux image: /boot/vmlinuz-4.9.84-rt62-preempt-rt
+Found initrd image: /boot/initrd.img-4.9.84-rt62-preempt-rt
+Found memtest86+ image: /memtest86+.elf
+Found memtest86+ image: /memtest86+.bin
+done
+Removing linux-modules-extra-4.15.0-29-generic (4.15.0-29.31~16.04.1) ...
+Removing linux-image-4.15.0-29-generic (4.15.0-29.31~16.04.1) ...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-4.15.0-29-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Generating grub configuration file ...
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1597: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1597: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1613: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1613: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1627: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1627: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1640: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1640: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1751: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 1751: /usr/sbin/grub-probe
+Found linux image: /boot/vmlinuz-4.15.0-34-generic
+Found initrd image: /boot/initrd.img-4.15.0-34-generic
+Found linux image: /boot/vmlinuz-4.15.0-33-generic
+Found initrd image: /boot/initrd.img-4.15.0-33-generic
+Found linux image: /boot/vmlinuz-4.15.0-32-generic
+Found initrd image: /boot/initrd.img-4.15.0-32-generic
+Found linux image: /boot/vmlinuz-4.15.0-30-generic
+Found initrd image: /boot/initrd.img-4.15.0-30-generic
+Found linux image: /boot/vmlinuz-4.9.84-rt62-preempt-rt
+Found initrd image: /boot/initrd.img-4.9.84-rt62-preempt-rt
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 2897: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on vgs invocation. Parent PID 2897: /usr/sbin/grub-probe
+Found memtest86+ image: /memtest86+.elf
+Found memtest86+ image: /memtest86+.bin
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-24-generic (deleted)) leaked on lvs invocation. Parent PID 3095: /bin/sh
+done
+Removing linux-modules-extra-4.15.0-30-generic (4.15.0-30.32~16.04.1) ...
+Removing linux-image-4.15.0-30-generic (4.15.0-30.32~16.04.1) ...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-4.15.0-30-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Generating grub configuration file ...
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3367: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3367: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3380: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3380: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3393: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3393: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3406: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3406: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3466: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 3466: /usr/sbin/grub-probe
+Found linux image: /boot/vmlinuz-4.15.0-34-generic
+Found initrd image: /boot/initrd.img-4.15.0-34-generic
+Found linux image: /boot/vmlinuz-4.15.0-33-generic
+Found initrd image: /boot/initrd.img-4.15.0-33-generic
+Found linux image: /boot/vmlinuz-4.15.0-32-generic
+Found initrd image: /boot/initrd.img-4.15.0-32-generic
+Found linux image: /boot/vmlinuz-4.9.84-rt62-preempt-rt
+Found initrd image: /boot/initrd.img-4.9.84-rt62-preempt-rt
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 4237: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on vgs invocation. Parent PID 4237: /usr/sbin/grub-probe
+Found memtest86+ image: /memtest86+.elf
+Found memtest86+ image: /memtest86+.bin
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-29-generic (deleted)) leaked on lvs invocation. Parent PID 4427: /bin/sh
+done
+Removing linux-modules-extra-4.15.0-32-generic (4.15.0-32.35~16.04.1) ...
+Removing linux-image-4.15.0-32-generic (4.15.0-32.35~16.04.1) ...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-4.15.0-32-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Generating grub configuration file ...
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4705: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4705: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4718: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4718: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4731: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4731: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4744: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4744: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4804: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 4804: /usr/sbin/grub-probe
+Found linux image: /boot/vmlinuz-4.15.0-34-generic
+Found initrd image: /boot/initrd.img-4.15.0-34-generic
+Found linux image: /boot/vmlinuz-4.15.0-33-generic
+Found initrd image: /boot/initrd.img-4.15.0-33-generic
+Found linux image: /boot/vmlinuz-4.9.84-rt62-preempt-rt
+Found initrd image: /boot/initrd.img-4.9.84-rt62-preempt-rt
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 5422: /usr/sbin/grub-probe
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on vgs invocation. Parent PID 5422: /usr/sbin/grub-probe
+Found memtest86+ image: /memtest86+.elf
+Found memtest86+ image: /memtest86+.bin
+File descriptor 10 (/var/lib/dpkg/triggers/linux-update-4.15.0-30-generic (deleted)) leaked on lvs invocation. Parent PID 5605: /bin/sh
+done
+Removing linux-modules-4.15.0-24-generic (4.15.0-24.26~16.04.1) ...
+Removing linux-modules-4.15.0-29-generic (4.15.0-29.31~16.04.1) ...
+Removing linux-modules-4.15.0-30-generic (4.15.0-30.32~16.04.1) ...
+Removing linux-modules-4.15.0-32-generic (4.15.0-32.35~16.04.1) ...
+Removing python-bs4 (4.4.1-1) ...
+Removing python-mock (1.3.0-2.1ubuntu1) ...
+Removing python-funcsigs (0.4-2) ...
+Removing python-html5lib (0.999-4) ...
+Removing ros-kinetic-srdfdom (0.4.2-1xenial-20180316-145206-0800) ...
+Removing ros-kinetic-urdfdom-py (0.3.3-0xenial-20180222-191425-0800) ...
+Removing python-lxml (3.5.0-1build1) ...
+Removing python-pbr (1.8.0-4ubuntu1) ...
+Removing python-pyassimp (3.2~dfsg-3) ...
+Removing ros-kinetic-moveit-msgs (0.9.1-0xenial-20180516-135453-0800) ...
+Removing ros-kinetic-object-recognition-msgs (0.4.1-0xenial-20180516-134451-0800) ...
+Removing screen-resolution-extra (0.17.1.1~16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for dbus (1.10.6-1ubuntu3.3) ...
+Setting up initramfs-tools (0.122ubuntu8.11) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for initramfs-tools (0.122ubuntu8.11) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-34-generic
+fiene@rosso:~/linux-4.9.84$ sudo apt-get install libssl-dev kernel-package
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+kernel-package is already the newest version (13.018).
+libssl-dev is already the newest version (1.0.2g-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 545 not upgraded.
+fiene@rosso:~/linux-4.9.84$ sudo apt-get install libssl-dev kernel-package
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+kernel-package is already the newest version (13.018).
+libssl-dev is already the newest version (1.0.2g-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 545 not upgraded.
+fiene@rosso:~/linux-4.9.84$ make
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf  --silentoldconfig Kconfig
+.config:4240:warning: symbol value 'm' invalid for GPIO_MB86S7X
+*
+* Restart config...
+*
+*
+* General setup
+*
+Cross-compiler tool prefix (CROSS_COMPILE) [] 
+Compile also drivers which will not load (COMPILE_TEST) [N/y/?] n
+Local version - append to kernel release (LOCALVERSION) [] 
+Automatically append version information to the version string (LOCALVERSION_AUTO) [N/y/?] n
+Kernel compression mode
+> 1. Gzip (KERNEL_GZIP)
+  2. Bzip2 (KERNEL_BZIP2)
+  3. LZMA (KERNEL_LZMA)
+  4. XZ (KERNEL_XZ)
+  5. LZO (KERNEL_LZO)
+  6. LZ4 (KERNEL_LZ4)
+choice[1-6?]: 1
+Default hostname (DEFAULT_HOSTNAME) [(none)] (none)
+Support for paging of anonymous memory (swap) (SWAP) [Y/n/?] y
+System V IPC (SYSVIPC) [Y/n/?] y
+POSIX Message Queues (POSIX_MQUEUE) [Y/n/?] y
+Enable process_vm_readv/writev syscalls (CROSS_MEMORY_ATTACH) [Y/n/?] y
+open by fhandle syscalls (FHANDLE) [Y/n/?] y
+uselib syscall (USELIB) [Y/n/?] y
+Auditing support (AUDIT) [Y/?] y
+Kernel .config support (IKCONFIG) [N/m/y/?] n
+Kernel log buffer size (16 => 64KB, 17 => 128KB) (LOG_BUF_SHIFT) [18] 18
+CPU kernel log buffer size contribution (13 => 8 KB, 17 => 128KB) (LOG_CPU_MAX_BUF_SHIFT) [12] 12
+Temporary per-CPU NMI log buffer size (12 => 4KB, 13 => 8KB) (NMI_LOG_BUF_SHIFT) [13] (NEW) ^Cscripts/kconfig/Makefile:37: recipe for target 'silentoldconfig' failed
+make[2]: *** [silentoldconfig] Interrupt
+Makefile:543: recipe for target 'silentoldconfig' failed
+make[1]: *** [silentoldconfig] Interrupt
+
+fiene@rosso:~/linux-4.9.84$ CONCURRENCY_LEVEL=8 make-kpkg --rootcmd fakeroot --initrd kernel_image kernel_headers
+exec make kpkg_version=13.018 -f /usr/share/kernel-package/ruleset/minimal.mk debian INITRD=YES  ROOT_CMD=fakeroot 
+====== making target debian/stamp/conf/minimal_debian [new prereqs: ]======
+This is kernel package version 13.018.
+test -d debian             || mkdir debian
+test ! -e stamp-building || rm -f stamp-building
+install -p -m 755 /usr/share/kernel-package/rules debian/rules
+for file in ChangeLog  Control  Control.bin86 config templates.in rules; do                                      \
+            cp -f  /usr/share/kernel-package/$file ./debian/;                               \
+        done
+cp: cannot stat '/usr/share/kernel-package/ChangeLog': No such file or directory
+for dir  in Config docs examples ruleset scripts pkg po;  do                                      \
+          cp -af /usr/share/kernel-package/$dir  ./debian/;                                 \
+        done
+test -f debian/control || sed         -e 's/=V/4.9.84/g'  \
+                -e 's/=D/4.9.84-10.00.Custom/g'         -e 's/=A/amd64/g'  \
+	-e 's/=SA//g'  \
+	-e 's/=I//g'				    \
+	-e 's/=CV/4.9/g'			    \
+	-e 's/=M/Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>/g'			    \
+	-e 's/=ST/linux/g'      -e 's/=B/x86_64/g'    \
+                -e 's/=R/initramfs-tools | linux-initramfs-tool,/g'    /usr/share/kernel-package/Control > debian/control
+test -f debian/changelog ||  sed -e 's/=V/4.9.84/g'       \
+            -e 's/=D/4.9.84-10.00.Custom/g'        -e 's/=A/amd64/g'       \
+            -e 's/=ST/linux/g'     -e 's/=B/x86_64/g'         \
+            -e 's/=M/Unknown Kernel Package Maintainer <unknown@unconfigured.in.etc.kernel-pkg.conf>/g'                            \
+             /usr/share/kernel-package/changelog > debian/changelog
+chmod 0644 debian/control debian/changelog
+test -d ./debian/stamp || mkdir debian/stamp
+make -f debian/rules debian/stamp/conf/kernel-conf
+make[1]: Entering directory '/home/fiene/linux-4.9.84'
+====== making target debian/stamp/conf/kernel-conf [new prereqs: ]======
+make    ARCH=x86_64 \
+                    oldconfig;
+make[2]: Entering directory '/home/fiene/linux-4.9.84'
+scripts/kconfig/conf  --oldconfig Kconfig
+.config:4240:warning: symbol value 'm' invalid for GPIO_MB86S7X
+*
+* Restart config...
+*
+*
+* General setup
+*
+Cross-compiler tool prefix (CROSS_COMPILE) [] 
+Compile also drivers which will not load (COMPILE_TEST) [N/y/?] n
+Local version - append to kernel release (LOCALVERSION) [] 
+Automatically append version information to the version string (LOCALVERSION_AUTO) [N/y/?] n
+Kernel compression mode
+> 1. Gzip (KERNEL_GZIP)
+  2. Bzip2 (KERNEL_BZIP2)
+  3. LZMA (KERNEL_LZMA)
+  4. XZ (KERNEL_XZ)
+  5. LZO (KERNEL_LZO)
+  6. LZ4 (KERNEL_LZ4)
+choice[1-6?]: 1
+Default hostname (DEFAULT_HOSTNAME) [(none)] (none)
+Support for paging of anonymous memory (swap) (SWAP) [Y/n/?] y
+System V IPC (SYSVIPC) [Y/n/?] y
+POSIX Message Queues (POSIX_MQUEUE) [Y/n/?] y
+Enable process_vm_readv/writev syscalls (CROSS_MEMORY_ATTACH) [Y/n/?] y
+open by fhandle syscalls (FHANDLE) [Y/n/?] y
+uselib syscall (USELIB) [Y/n/?] y
+Auditing support (AUDIT) [Y/?] y
+*
+* IRQ subsystem
+*
+Expose hardware/virtual IRQ mapping via debugfs (IRQ_DOMAIN_DEBUG) [N/y/?] n
+*
+* Timers subsystem
+*
+Timer tick handling
+  1. Periodic timer ticks (constant rate, no dynticks) (HZ_PERIODIC)
+> 2. Idle dynticks system (tickless idle) (NO_HZ_IDLE)
+  3. Full dynticks system (tickless) (NO_HZ_FULL)
+choice[1-3]: 2
+Old Idle dynticks config (NO_HZ) [Y/n/?] y
+High Resolution Timer Support (HIGH_RES_TIMERS) [Y/n/?] y
+*
+* CPU/Task time and stats accounting
+*
+Cputime accounting
+> 1. Simple tick based cputime accounting (TICK_CPU_ACCOUNTING)
+  2. Full dynticks CPU time accounting (VIRT_CPU_ACCOUNTING_GEN)
+choice[1-2]: 1
+Fine granularity task level IRQ time accounting (IRQ_TIME_ACCOUNTING) [N/y/?] n
+BSD Process Accounting (BSD_PROCESS_ACCT) [Y/n/?] y
+  BSD Process Accounting version 3 file format (BSD_PROCESS_ACCT_V3) [Y/n/?] y
+Export task/process statistics through netlink (TASKSTATS) [Y/?] y
+  Enable per-task delay accounting (TASK_DELAY_ACCT) [Y/?] y
+  Enable extended accounting over taskstats (TASK_XACCT) [Y/n/?] y
+    Enable per-task storage I/O accounting (TASK_IO_ACCOUNTING) [Y/n/?] y
+*
+* RCU Subsystem
+*
+Make expert-level adjustments to RCU configuration (RCU_EXPERT) [N/y/?] n
+Kernel .config support (IKCONFIG) [N/m/y/?] n
+Kernel log buffer size (16 => 64KB, 17 => 128KB) (LOG_BUF_SHIFT) [18] 18
+CPU kernel log buffer size contribution (13 => 8 KB, 17 => 128KB) (LOG_CPU_MAX_BUF_SHIFT) [12] 12
+Temporary per-CPU NMI log buffer size (12 => 4KB, 13 => 8KB) (NMI_LOG_BUF_SHIFT) [13] (NEW) 13
+Memory placement aware NUMA scheduler (NUMA_BALANCING) [Y/n/?] y
+  Automatically enable NUMA aware memory/task placement (NUMA_BALANCING_DEFAULT_ENABLED) [Y/n/?] y
+*
+* Control Group support
+*
+Control Group support (CGROUPS) [Y/?] y
+  Memory controller (MEMCG) [Y/n/?] y
+    Swap controller (MEMCG_SWAP) [Y/n/?] y
+      Swap controller enabled by default (MEMCG_SWAP_ENABLED) [N/y/?] n
+  IO controller (BLK_CGROUP) [Y/n/?] y
+    IO controller debugging (DEBUG_BLK_CGROUP) [N/y/?] n
+  *
+  * CPU controller
+  *
+  CPU controller (CGROUP_SCHED) [Y/?] y
+    Group scheduling for SCHED_OTHER (FAIR_GROUP_SCHED) [Y] y
+      CPU bandwidth provisioning for FAIR_GROUP_SCHED (CFS_BANDWIDTH) [Y/n/?] y
+    Group scheduling for SCHED_RR/FIFO (RT_GROUP_SCHED) [N/y/?] n
+  PIDs controller (CGROUP_PIDS) [Y/n/?] y
+  Freezer controller (CGROUP_FREEZER) [Y/n/?] y
+  HugeTLB controller (CGROUP_HUGETLB) [Y/n/?] y
+  Cpuset controller (CPUSETS) [Y/n/?] y
+    Include legacy /proc/<pid>/cpuset file (PROC_PID_CPUSET) [Y/n] y
+  Device controller (CGROUP_DEVICE) [Y/n/?] y
+  Simple CPU accounting controller (CGROUP_CPUACCT) [Y/n/?] y
+  Perf controller (CGROUP_PERF) [Y/n/?] y
+  Example controller (CGROUP_DEBUG) [N/y/?] n
+Checkpoint/restore support (CHECKPOINT_RESTORE) [Y/n/?] y
+*
+* Namespaces support
+*
+Namespaces support (NAMESPACES) [Y/n/?] y
+  UTS namespace (UTS_NS) [Y/n/?] y
+  IPC namespace (IPC_NS) [Y/n/?] y
+  User namespace (USER_NS) [Y/n/?] y
+  PID Namespaces (PID_NS) [Y/n/?] y
+  Network namespace (NET_NS) [Y/n/?] y
+Automatic process group scheduling (SCHED_AUTOGROUP) [Y/n/?] y
+Enable deprecated sysfs features to support old userspace tools (SYSFS_DEPRECATED) [N/y/?] n
+Kernel->user space relay support (formerly relayfs) (RELAY) [Y/?] y
+Initial RAM filesystem and RAM disk (initramfs/initrd) support (BLK_DEV_INITRD) [Y/n/?] y
+  Initramfs source file(s) (INITRAMFS_SOURCE) [] 
+  Support initial ramdisks compressed using gzip (RD_GZIP) [Y/n/?] y
+  Support initial ramdisks compressed using bzip2 (RD_BZIP2) [Y/n/?] y
+  Support initial ramdisks compressed using LZMA (RD_LZMA) [Y/n/?] y
+  Support initial ramdisks compressed using XZ (RD_XZ) [Y/n/?] y
+  Support initial ramdisks compressed using LZO (RD_LZO) [Y/n/?] y
+  Support initial ramdisks compressed using LZ4 (RD_LZ4) [Y/n/?] y
+Compiler optimization level
+> 1. Optimize for performance (CC_OPTIMIZE_FOR_PERFORMANCE)
+  2. Optimize for size (CC_OPTIMIZE_FOR_SIZE)
+choice[1-2]: 1
+*
+* Configure standard kernel features (expert users)
+*
+Configure standard kernel features (expert users) (EXPERT) [Y/n/?] y
+  Enable 16-bit UID system calls (UID16) [Y/n/?] y
+  Multiple users, groups and capabilities support (MULTIUSER) [Y/n/?] y
+  sgetmask/ssetmask syscalls support (SGETMASK_SYSCALL) [Y/n/?] y
+  Sysfs syscall support (SYSFS_SYSCALL) [Y/n/?] y
+  Sysctl syscall support (SYSCTL_SYSCALL) [Y/n/?] y
+  Load all symbols for debugging/ksymoops (KALLSYMS) [Y/?] y
+    Include all symbols in kallsyms (KALLSYMS_ALL) [Y/n/?] y
+  Enable support for printk (PRINTK) [Y/n/?] y
+  BUG() support (BUG) [Y/?] y
+  Enable ELF core dumps (ELF_CORE) [Y/n/?] y
+  Enable PC-Speaker support (PCSPKR_PLATFORM) [Y/n/?] y
+  Enable full-sized data structures for core (BASE_FULL) [Y/n/?] y
+  Enable futex support (FUTEX) [Y/n/?] y
+  Enable eventpoll support (EPOLL) [Y/n/?] y
+  Enable signalfd() system call (SIGNALFD) [Y/n/?] y
+  Enable timerfd() system call (TIMERFD) [Y/n/?] y
+  Enable eventfd() system call (EVENTFD) [Y/?] y
+Enable bpf() system call (BPF_SYSCALL) [Y/?] y
+  Permanently enable BPF JIT and remove BPF interpreter (BPF_JIT_ALWAYS_ON) [Y/n/?] y
+Use full shmem filesystem (SHMEM) [Y/?] y
+Enable AIO support (AIO) [Y/n/?] y
+Enable madvise/fadvise syscalls (ADVISE_SYSCALLS) [Y/n/?] y
+Enable userfaultfd() system call (USERFAULTFD) [Y/n/?] y
+Enable PCI quirk workarounds (PCI_QUIRKS) [Y/n/?] y
+Enable membarrier() system call (MEMBARRIER) [Y/n/?] y
+Embedded system (EMBEDDED) [N/y/?] n
+*
+* Kernel Performance Events And Counters
+*
+Kernel performance events and counters (PERF_EVENTS) [Y/?] y
+  Debug: use vmalloc to back perf mmap() buffers (DEBUG_PERF_USE_VMALLOC) [N/y/?] n
+Enable VM event counters for /proc/vmstat (VM_EVENT_COUNTERS) [Y/n/?] y
+Enable SLUB debugging support (SLUB_DEBUG) [Y/n/?] y
+Disable heap randomization (COMPAT_BRK) [N/y/?] n
+Choose SLAB allocator
+  1. SLAB (SLAB)
+> 2. SLUB (Unqueued Allocator) (SLUB)
+  3. SLOB (Simple Allocator) (SLOB)
+choice[1-3?]: 2
+SLAB freelist randomization (SLAB_FREELIST_RANDOM) [Y/n/?] y
+SLUB per cpu partial cache (SLUB_CPU_PARTIAL) [Y/n/?] y
+Profiling support (PROFILING) [Y/n/?] y
+OProfile system profiling (OPROFILE) [M/n/y/?] m
+  OProfile multiplexing support (EXPERIMENTAL) (OPROFILE_EVENT_MULTIPLEX) [N/y/?] n
+Kprobes (KPROBES) [Y/n/?] y
+Optimize very unlikely/likely branches (JUMP_LABEL) [Y/n/?] y
+  Static key selftest (STATIC_KEYS_SELFTEST) [N/y/?] n
+*
+* GCC plugins
+*
+GCC plugins (GCC_PLUGINS) [N/y/?] n
+Stack Protector buffer overflow detection
+  1. None (CC_STACKPROTECTOR_NONE)
+  2. Regular (CC_STACKPROTECTOR_REGULAR)
+> 3. Strong (CC_STACKPROTECTOR_STRONG)
+choice[1-3?]: 3
+Number of bits to use for ASLR of mmap base address (ARCH_MMAP_RND_BITS) [28] 28
+Number of bits to use for ASLR of mmap base address for compatible applications (ARCH_MMAP_RND_COMPAT_BITS) [8] 8
+Use a virtually-mapped stack (VMAP_STACK) [Y/n/?] y
+*
+* GCOV-based kernel profiling
+*
+Enable gcov-based kernel profiling (GCOV_KERNEL) [N/y/?] n
+*
+* Processor type and features
+*
+DMA memory allocation support (ZONE_DMA) [Y/n/?] y
+Symmetric multi-processing support (SMP) [Y/n/?] y
+Support x2apic (X86_X2APIC) [Y/n/?] y
+Enable MPS table (X86_MPPARSE) [Y/n/?] y
+Avoid speculative indirect branches in kernel (RETPOLINE) [Y/n/?] y
+Support for extended (non-PC) x86 platforms (X86_EXTENDED_PLATFORM) [Y/n/?] y
+Numascale NumaChip (X86_NUMACHIP) [Y/n/?] y
+ScaleMP vSMP (X86_VSMP) [N/y/?] n
+SGI Ultraviolet (X86_UV) [N/y/?] n
+Goldfish (Virtual Platform) (X86_GOLDFISH) [N/y/?] n
+Intel MID platform support (X86_INTEL_MID) [N/y/?] n
+Mellanox Technologies platform support (MLX_PLATFORM) [M/n/y/?] m
+Intel Low Power Subsystem Support (X86_INTEL_LPSS) [Y/n/?] y
+AMD ACPI2Platform devices support (X86_AMD_PLATFORM_DEVICE) [Y/n/?] y
+Intel SoC IOSF Sideband support for SoC platforms (IOSF_MBI) [Y/?] y
+  Enable IOSF sideband access through debugfs (IOSF_MBI_DEBUG) [Y/n/?] y
+Single-depth WCHAN output (SCHED_OMIT_FRAME_POINTER) [Y/n/?] y
+*
+* Linux guest support
+*
+Linux guest support (HYPERVISOR_GUEST) [Y/n/?] y
+  Enable paravirtualization code (PARAVIRT) [Y/n/?] y
+    paravirt-ops debugging (PARAVIRT_DEBUG) [N/y/?] n
+    Paravirtualization layer for spinlocks (PARAVIRT_SPINLOCKS) [Y/n/?] y
+      Paravirt queued spinlock statistics (QUEUED_LOCK_STAT) [N/y/?] n
+    Xen guest support (XEN) [Y/n/?] y
+      Limit Xen pv-domain memory to 512GB (XEN_512GB) [Y/n/?] y
+      Enable Xen debug and tuning parameters in debugfs (XEN_DEBUG_FS) [N/y/?] n
+      Support for running as a PVH guest (XEN_PVH) [Y/n] y
+    KVM Guest support (including kvmclock) (KVM_GUEST) [Y/n/?] y
+      Enable debug information for KVM Guests in debugfs (KVM_DEBUG_FS) [Y/n/?] y
+    Paravirtual steal time accounting (PARAVIRT_TIME_ACCOUNTING) [N/y/?] n
+Processor family
+  1. Opteron/Athlon64/Hammer/K8 (MK8)
+  2. Intel P4 / older Netburst based Xeon (MPSC)
+  3. Core 2/newer Xeon (MCORE2)
+  4. Intel Atom (MATOM)
+> 5. Generic-x86-64 (GENERIC_CPU)
+choice[1-5?]: 5
+*
+* Supported processor vendors
+*
+Supported processor vendors (PROCESSOR_SELECT) [Y/n/?] y
+  Support Intel processors (CPU_SUP_INTEL) [Y/n/?] y
+  Support AMD processors (CPU_SUP_AMD) [Y/n/?] y
+  Support Centaur processors (CPU_SUP_CENTAUR) [Y/n/?] y
+Enable DMI scanning (DMI) [Y/n/?] y
+Old AMD GART IOMMU support (GART_IOMMU) [Y/n/?] y
+IBM Calgary IOMMU support (CALGARY_IOMMU) [Y/n/?] y
+  Should Calgary be enabled by default? (CALGARY_IOMMU_ENABLED_BY_DEFAULT) [Y/n/?] y
+Enable Maximum number of SMP Processors and NUMA Nodes (MAXSMP) [Y/n/?] y
+SMT (Hyperthreading) scheduler support (SCHED_SMT) [Y/n/?] y
+Multi-core scheduler support (SCHED_MC) [Y/n/?] y
+Preemption Model
+  1. No Forced Preemption (Server) (PREEMPT_NONE)
+> 2. Voluntary Kernel Preemption (Desktop) (PREEMPT_VOLUNTARY)
+  3. Preemptible Kernel (Low-Latency Desktop) (PREEMPT__LL) (NEW)
+  4. Preemptible Kernel (Basic RT) (PREEMPT_RTB) (NEW)
+  5. Fully Preemptible Kernel (RT) (PREEMPT_RT_FULL) (NEW)
+choice[1-5]: 5
+Reroute for broken boot IRQs (X86_REROUTE_FOR_BROKEN_BOOT_IRQS) [Y/n/?] y
+Machine Check / overheating reporting (X86_MCE) [Y/n/?] y
+  Intel MCE features (X86_MCE_INTEL) [Y/n/?] y
+  AMD MCE features (X86_MCE_AMD) [Y/n/?] y
+Machine check injector support (X86_MCE_INJECT) [M/n/y/?] m
+*
+* Performance monitoring
+*
+Intel uncore performance events (PERF_EVENTS_INTEL_UNCORE) [Y/n/m/?] y
+Intel rapl performance events (PERF_EVENTS_INTEL_RAPL) [M/n/y/?] m
+Intel cstate performance events (PERF_EVENTS_INTEL_CSTATE) [M/n/y/?] m
+AMD Processor Power Reporting Mechanism (PERF_EVENTS_AMD_POWER) [N/m/y/?] n
+Enable support for 16-bit segments (X86_16BIT) [Y/n/?] y
+Enable vsyscall emulation (X86_VSYSCALL_EMULATION) [Y/n/?] y
+Dell i8k legacy laptop support (I8K) [M/n/y/?] m
+CPU microcode loading support (MICROCODE) [Y/n/?] y
+  Intel microcode loading support (MICROCODE_INTEL) [Y/n/?] y
+  AMD microcode loading support (MICROCODE_AMD) [Y/n/?] y
+/dev/cpu/*/msr - Model-specific register support (X86_MSR) [M/n/y/?] m
+/dev/cpu/*/cpuid - CPU information support (X86_CPUID) [M/n/y/?] m
+Numa Memory Allocation and Scheduler Support (NUMA) [Y/n/?] y
+  Old style AMD Opteron NUMA detection (AMD_NUMA) [Y/n/?] y
+  ACPI NUMA detection (X86_64_ACPI_NUMA) [Y/n/?] y
+  NUMA emulation (NUMA_EMU) [N/y/?] n
+Enable sysfs memory/probe interface (ARCH_MEMORY_PROBE) [Y/n/?] y
+Memory model
+> 1. Sparse Memory (SPARSEMEM_MANUAL)
+choice[1]: 1
+Sparse Memory virtual memmap (SPARSEMEM_VMEMMAP) [Y/n/?] y
+Enable to assign a node which has only movable memory (MOVABLE_NODE) [N/y/?] (NEW) 
