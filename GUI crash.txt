@@ -1,0 +1,4 @@
+ics-mat@ics-mat:~$ ls -l /var/crash/
+total 4680
+-rw-r----- 1  999 whoopsie 3013784 Okt 11 16:27 _usr_lib_x86_64-linux-gnu_unity_compiz-config-profile-setter.999.crash
+-rw-r----- 1 root whoopsie 1776484 Okt 11 16:12 _usr_lib_xorg_Xorg.0.crash
