@@ -1,8 +1,22 @@
+// UNCOMMENTING
+
 ics-mat@ics-mat:~$ subl /etc/default/grub
 ics-mat@ics-mat:~$ sudo update-grub
 [sudo] password for ics-mat: 
 Generating grub configuration file ...
 Warning: Setting GRUB_TIMEOUT to a non-zero value when GRUB_HIDDEN_TIMEOUT is set is no longer supported.
+Found linux image: /boot/vmlinuz-4.15.0-29-generic
+Found initrd image: /boot/initrd.img-4.15.0-29-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+Found Ubuntu 16.04.5 LTS (16.04) on /dev/sda1
+done
+
+// COMMENTING BACK
+
+ics-mat@ics-mat:~$ sudo update-grub
+[sudo] password for ics-mat: 
+Generating grub configuration file ...
 Found linux image: /boot/vmlinuz-4.15.0-29-generic
 Found initrd image: /boot/initrd.img-4.15.0-29-generic
 Found memtest86+ image: /boot/memtest86+.elf
