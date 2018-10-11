@@ -1,0 +1,58 @@
+Problem discussed with nouveau EVO Timeout
+
+=========================================================================
+
+Problem assumed/detected:
+kernel 4.15+
+
+=========================================================================
+
+Link:
+https://l.messenger.com/l.php?u=https%3A%2F%2Flists.freedesktop.org%2Farchives%2Fnouveau%2F2018-July%2F030579.html&h=AT3uEW-B_jzNlhT0WwIMR8X7n425QgOVM3Ocs9BLLkC39hRMMbL0UPRtqVqmmWLwCZoVQsjcqM1fdiKBRtFg8_PRsSZCqwPvfBG0jz5_7GoVKqMUq22rQYQe5JM
+
+=========================================================================
+
+TRY:
+
+ics-mat@ics-mat:~$ uname -r
+4.15.0-29-generic
+ics-mat@ics-mat:~$ dmesg | grep -i nouv
+[    0.993798] nouveau 0000:17:00.0: enabling device (0100 -> 0103)
+[    0.993963] nouveau 0000:17:00.0: NVIDIA GK107 (0e7330a2)
+[    1.117988] nouveau 0000:17:00.0: bios: version 80.07.fc.00.01
+[    1.362810] nouveau 0000:17:00.0: fb: 2048 MiB DDR3
+[    2.684809] nouveau 0000:17:00.0: DRM: VRAM: 2048 MiB
+[    2.684810] nouveau 0000:17:00.0: DRM: GART: 1048576 MiB
+[    2.684813] nouveau 0000:17:00.0: DRM: TMDS table version 2.0
+[    2.684814] nouveau 0000:17:00.0: DRM: DCB version 4.0
+[    2.684816] nouveau 0000:17:00.0: DRM: DCB outp 00: 01000f02 00020030
+[    2.684817] nouveau 0000:17:00.0: DRM: DCB outp 01: 02000f00 00000000
+[    2.684818] nouveau 0000:17:00.0: DRM: DCB outp 02: 02811fa6 0f420010
+[    2.684819] nouveau 0000:17:00.0: DRM: DCB outp 03: 02011f62 00020010
+[    2.684829] nouveau 0000:17:00.0: DRM: DCB conn 00: 00001030
+[    2.684830] nouveau 0000:17:00.0: DRM: DCB conn 01: 00002146
+[    2.708785] nouveau 0000:17:00.0: DRM: MM: using COPY for buffer copies
+[    2.793770] [drm] Initialized nouveau 1.3.1 20120801 for 0000:17:00.0 on minor 0
+[    2.885209] fb: switching to nouveaufb from VESA VGA
+[    2.885310] nouveau 0000:65:00.0: NVIDIA GK107 (0e7330a2)
+[    2.987830] nouveau 0000:65:00.0: bios: version 80.07.f0.00.01
+[    2.988623] nouveau 0000:65:00.0: fb: 2048 MiB DDR3
+[    4.298044] nouveau 0000:65:00.0: DRM: VRAM: 2048 MiB
+[    4.298045] nouveau 0000:65:00.0: DRM: GART: 1048576 MiB
+[    4.298047] nouveau 0000:65:00.0: DRM: TMDS table version 2.0
+[    4.298048] nouveau 0000:65:00.0: DRM: DCB version 4.0
+[    4.298049] nouveau 0000:65:00.0: DRM: DCB outp 00: 01000f02 00020030
+[    4.298050] nouveau 0000:65:00.0: DRM: DCB outp 01: 02000f00 00000000
+[    4.298052] nouveau 0000:65:00.0: DRM: DCB outp 02: 02811fa6 0f420010
+[    4.298053] nouveau 0000:65:00.0: DRM: DCB outp 03: 02011f62 00020010
+[    4.298054] nouveau 0000:65:00.0: DRM: DCB conn 00: 00001030
+[    4.298055] nouveau 0000:65:00.0: DRM: DCB conn 01: 00002146
+[    4.302504] nouveau 0000:65:00.0: DRM: MM: using COPY for buffer copies
+[    4.354680] nouveau 0000:65:00.0: DRM: allocated 3840x2160 fb: 0x60000, bo         (ptrval)
+[    4.367053] fbcon: nouveaufb (fb0) is primary device
+[    4.367148] nouveau 0000:65:00.0: fb0: nouveaufb frame buffer device
+[    4.389703] [drm] Initialized nouveau 1.3.1 20120801 for 0000:65:00.0 on minor 1
+[    6.382622] nouveau 0000:65:00.0: DRM: EVO timeout
+[   18.537263] nouveau 0000:65:00.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=none:owns=io+mem
+[   18.537266] nouveau 0000:17:00.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=none:owns=none
+
