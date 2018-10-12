@@ -1,0 +1,420 @@
+<Edition installerversion="1.0" name="Custom" version="6.1.2.00015" location="/home/ics-mat/ti/ccsv6/eclipse" totalsize="0" product="Code Composer Studio" percentcomplete="1">
+    <OS>linux</OS>
+    <CCSDIR>/home/ics-mat/ti/ccsv6</CCSDIR>
+    <zipbinary>unzip</zipbinary>
+    <proxy></proxy>
+    <baserepourl>http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo</baserepourl>
+    <TempDir>/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d</TempDir>
+    <InstallSrc>/home/ics-mat/Downloads/CCS6.1.2.00015_web_linux</InstallSrc>
+    <InstallDir>/home/ics-mat/ti</InstallDir>
+    <LocalBaseRepository>/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo</LocalBaseRepository>
+    <featureurl>http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo</featureurl>
+    <eclipseexe>eclipse</eclipseexe>
+    <ComponentInstaller>false</ComponentInstaller>
+    <LocalRepository_Exists>0</LocalRepository_Exists>
+    <testurl>0</testurl>
+    <EclipseDir>/home/ics-mat/ti/ccsv6/eclipse</EclipseDir>
+    <Features>
+        <Feature tag="ARM_CGT_HELP" name="com.ti.cgt.arm.5.2.help" version="5.2.0.201501080900" state="initial" order="76" size="4815337" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/armhelprepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="ARM_QT" name="com.ti.trolltech.qtcpp" version="1.6.1" state="initial" order="84" size="24724293" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="qt-eclipse-integration-linux.x86-1.6.1.tar.gz" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="C2000_CGT_HELP" name="com.ti.cgt.c2000.6.4.help" version="6.4.0.201411251410" state="initial" order="79" size="3779547" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/c2000helprepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="C5500_CGT_HELP" name="com.ti.cgt.c5500.4.4.help" version="4.4.0.201203231357" state="initial" order="82" size="2613246" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/c5500helprepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="C6000_CGT_HELP" name="com.ti.cgt.c6000.7.4.help" version="7.4.0.201303051055" state="initial" order="74" size="3278554" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/c6000helprepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="CCS_DOC" name="com.ti.ccstudio.doc.linux" version="6.1.2.20151222" state="initial" order="132" size="240410" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ccs_doc_linux_6.1.2.20151222.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="CCS_LAUNCHER" name="com.ti.ccstudio.launcher.linux" version="6.1.1.20150813" state="initial" order="129" size="27975" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ccs_launcher_linux_6.1.1.20150813.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="CCS_UTILS" name="com.ti.ccstudio.utils.cli.linux" version="1.0.0.20151216" state="initial" order="135" size="3684500" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ccs_utils_linux_1.0.0.20151216.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="CGT_DEFAULTLIBS_C2800" name="com.ti.cgt.c2000.6.4.linux" version="6.4.6" state="initial" order="15" size="18767837" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_cgt_c2000_6.4.6_linux_installer_x86.bin" arguments="--mode unattended --ccs true --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="CGT_DEFAULTLIBS_C5500" name="com.ti.cgt.c5500.4.4.linux" version="4.4.1" state="initial" order="18" size="37216642" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_cgt_c5500_4.4.1_linux_installer_x86.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="CGT_DEFAULTLIBS_C6000" name="com.ti.cgt.c6000.7.4.linux" version="7.4.14" state="initial" order="20" size="37704244" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_cgt_c6000_7.4.14_linux_installer_x86.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="CGT_DEFAULTLIBS_C6000_V8P" name="com.ti.cgt.c6000.8.1.linux" version="8.1.0" state="initial" order="22" size="40948666" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_cgt_c6000_8.1.0_linux_installer_x86.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="CGT_DEFAULTLIBS_MSP430" name="com.ti.cgt.msp430.4.4.linux" version="4.4.5" state="initial" order="24" size="21235777" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_cgt_msp430_4.4.5_linux_installer_x86.bin" arguments="--mode unattended --ccs true --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="CGT_DEFAULTLIBS_TMS470" name="com.ti.cgt.tms470.5.2.linux" version="5.2.5" state="initial" order="27" size="23530635" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_cgt_tms470_5.2.5_linux_installer_x86.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_C55XX" name="com.ti.ccstudio.c55xx.devicesupport.linux" version="1.1.4" state="initial" order="89" size="419545" pf_filter="C5500" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="c55xx_device_support_1.1.4.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_C6000" name="com.ti.ccstudio.c6000.devicesupport.linux" version="1.1.2" state="initial" order="91" size="544775" pf_filter="C6000_SC" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="c6000_device_support_1.1.2.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_C6000MC" name="com.ti.ccstudio.c6000mc.devicesupport.linux" version="1.0.5" state="initial" order="93" size="165832" pf_filter="MULTICORE64" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="c6000multicore_device_support_1.0.5.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_CC2538" name="com.ti.ccstudio.cc2538.devicesupport.linux" version="1.31.2.00" state="initial" order="101" size="146247" pf_filter="CC2XXX" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="cc2538_device_support_1.31.02.00.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_CC26XX" name="com.ti.ccstudio.cc26xx.devicesupport.linux" version="1.15.1.01" state="initial" order="104" size="411901" pf_filter="CC2XXX" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="cc26xx_device_support_1.15.1.01.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_CC32XX" name="com.ti.ccstudio.cc3200.driversupport.linux" version="1.0.7" state="initial" order="121" size="1090" pf_filter="CC3XXX" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="cc3200_driver_support_linux_1.0.7.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_CC32XX_COMMON" name="com.ti.ccstudio.cc3200.devicesupport.linux" version="1.0.7" state="initial" order="124" size="7953" pf_filter="CC3XXX" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="cc3200_device_support_1.0.7.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_DAVINCI" name="com.ti.ccstudio.davinci.devicesupport.linux" version="1.1.3" state="initial" order="95" size="220618" pf_filter="MEDIA" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="davinci_device_support_1.1.3.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_INTEGRA" name="com.ti.ccstudio.integra.devicesupport.linux" version="1.0.9" state="initial" order="97" size="64398" pf_filter="OMAP" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="integra_device_support_1.0.9.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_OMAP" name="com.ti.ccstudio.omap.devicesupport.linux" version="1.0.9" state="initial" order="99" size="446478" pf_filter="OMAP" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="omap_device_support_1.0.9.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_SHARED" name="com.ti.ccstudio.shared.devicesupport.linux" version="1.0.9" state="initial" order="85" size="5072696" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="shared_device_support_1.0.9.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_SITARA" name="com.ti.ccstudio.sitara.devicesupport.linux" version="1.2.7.151221" state="initial" order="87" size="3017430" pf_filter="SITARA" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="sitara_device_support_1.2.7.151221.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DEV_SUPPORT_UCD31XX" name="com.ti.ucd31xx.support.linux" version="1.0.0" state="initial" order="127" size="246532" pf_filter="UCD31XX" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="digital_power_device_support_1.0.0_rerooted.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DMED" name="com.ti.cgt.dmed.linux" version="1.1.4" state="initial" order="69" size="4532379" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_cgt_dmed_1.1.4_linux_installer_x86.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="DS" name="com.ti.ccstudio.debugserver.linux" version="6.1.0.1449" state="initial" order="9" size="15750885" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_dspack_ibsetup_6.1.0.1449.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="DS_FLASH" name="com.ti.dsflash.linux" version="6.1.0.1449" state="initial" order="12" size="728992" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="com.ti.dsflash.linux_6.1.0.1449.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="DVT_COMMON" name="com.ti.dvt2.graph.visualization.feature.group,com.ti.dvt2.rov.feature.group" version="4.1.0.201507151655_2" state="initial" order="37" size="36422507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/dvtRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="DVT_ENERGYTRACE" name="com.ti.dvt.msp430.power.feature.group" version="4.1.0.201507151655_2" state="initial" order="41" size="36422507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/dvtRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="DVT_TRACE" name="com.ti.dvt2.trace.ccs.feature.group,com.ti.dvt2.trace.control.feature.group,com.ti.dvt2.analysis.suite.feature.group" version="4.1.0.201507151655_2" state="initial" order="38" size="36422507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/dvtRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="DVT_UIA" name="com.ti.dvt2.uia.feature.group,com.ti.dvt2.analysis.suite.feature.group" version="4.1.0.201507151655_2" state="initial" order="40" size="36422507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/dvtRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="DVT_VIA_CCS" name="com.ti.dvt2.via.ccs.feature.group,com.ti.dvt2.profileanalysismanager.feature.group" version="4.1.0.201507151655_2" state="initial" order="39" size="36422507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/dvtRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="ECLIPSE" name="org.eclipse.platform.ide,org.eclipse.help.feature.group,org.eclipse.equinox.p2.discovery.feature.feature.group,org.eclipse.equinox.p2.user.ui.feature.group,org.eclipse.cdt.feature.group,org.eclipse.cdt.debug.ui.memory.feature.group,org.eclipse.tm.terminal.sdk.feature.group,org.eclipse.epp.mpc.feature.group,org.eclipse.egit.feature.group,gnu.io.rxtx.feature.group,org.eclipse.cdt.build.crossgcc.feature.group,org.eclipse.rse.feature.group,org.eclipse.cdt.launch.remote.feature.group" version="4.4.1" state="initial" order="5" size="97254838" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/eclipserepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location="/home/ics-mat/ti/ccsv6/eclipse"/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="ECLIPSECORE" name="" version="4.3.0.rtm_4_candidate" state="initial" order="3" size="6035829" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo">
+            <Installer name="eclipse_core_4.3.0.rtm_4_candidate.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="EMU_BH" name="com.bh.ccstudio.emulation.linux" version="6.0.0.344" state="initial" order="42" size="23034533" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="bh_emupack_setup_6.0.0.344.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' --enable-components arm,c2800,c6000,davinci,omap,c5500" location=""/>
+            <Uninstaller name="uninstall_bh_emupack.bin" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6/ccs_base/emulation'"/>
+        </Feature>
+        <Feature tag="EMU_C2000" name="com.ti.c2000.support.linux" version="4.1.4.3" state="initial" order="55" size="2046526" pf_filter="C2000" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_c2000support_setup_4.1.4.3.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="EMU_C2000_FLASH" name="com.ti.c2800.flash" version="1.0.0.2" state="initial" order="58" size="354464" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_c2800_flash_1.0.0.2.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="EMU_HERCULES" name="com.ti.ccstudio.hercules.linux" version="6.0.7" state="initial" order="50" size="1235674" pf_filter="SAFETY" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_hercules_setup_6.0.7.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="EMU_MSP430" name="com.ti.ccstudio.msp430.emu.linux" version="6.2.0.0" state="initial" order="61" size="35982412" pf_filter="MSP430" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_msp430pack_setup_6.2.0.0.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="EMU_MSP432" name="com.ti.ccstudio.msp432.emu.linux" version="6.1.1.3" state="initial" order="64" size="4208080" pf_filter="MSP432" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_msp432pack_setup_6.1.1.3.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="EMU_SD" name="com.sd.ccstudio.emulation.linux" version="5.2.0.12" state="initial" order="53" size="12533437" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="sd_emupack_setup_5.2.0.12.bin" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/ccs_base' /noc2400 /noc5400" location=""/>
+            <Uninstaller name="uninstall_sd_emupack.bin" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6/ccs_base/emulation'"/>
+        </Feature>
+        <Feature tag="EMU_STELLARIS" name="com.ti.stellaris.setup.linux" version="2.0.3.12770" state="initial" order="111" size="3719686" pf_filter="STELLARIS" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ccs_stellaris_devices_files_2_0_3_12770.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="EMU_TI" name="com.ti.emulation.pack.linux" version="6.0.14.5" state="initial" order="47" size="34062355" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_emupack_setup_6.0.14.5_linux_i386.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' --enable-components arm,c2800,c6000,davinci,omap,c5500,xds100,xds560" location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="GCC_ARM_COMPILER" name="com.ti.gcc.arm.linux" version="4.8.0.2014q3-20140805" state="initial" order="108" size="68907741" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="gcc_arm_linux_4.8.0.2014q3-20140805.tar.gz" arguments="'/home/ics-mat/ti/ccsv6/tools/compiler'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="GMF" name="org.eclipse.gmf.feature.group" version="1.7.0" state="initial" order="40" size="17082730" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/gmfRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_ARM" name="com.ti.ccstudio.tms470" version="6.1.1.N201512011200" state="initial" order="34" size="16053507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/idebuildRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_C2000" name="com.ti.ccstudio.c2000" version="6.1.1.N201512011200" state="initial" order="36" size="16053507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/idebuildRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_C5500" name="com.ti.ccstudio.c5500" version="6.1.1.N201512011200" state="initial" order="37" size="16053507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/idebuildRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_C6000" name="com.ti.ccstudio.c6000" version="6.1.1.N201512011200" state="initial" order="38" size="16053507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/idebuildRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_CHROME" name="com.ti.chromium.browser.feature.group" version="6.1.1.N201512011200" state="initial" order="34" size="35258257" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/browserRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_GC" name="com.ti.gc.backplane.feature.group,com.ti.gc.pm.feature.group,com.ti.debug.server.feature.group" version="6.1.1.N201512011200" state="initial" order="31" size="4528262" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/gcRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_MAIN" name="com.ti.ccstudio.idemain" version="6.1.1.N201512011200" state="initial" order="32" size="16053507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/idebuildRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_MSP430" name="com.ti.ccstudio.msp430" version="6.1.1.N201512011200" state="initial" order="35" size="16053507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/idebuildRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_TOOLS_COMMON" name="com.ti.tools.common.feature.group" version="6.1.1.N201512011200" state="initial" order="30" size="3272719" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/tools-commonRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="IDE_WORKFLOW" name="com.ti.ccstudio.workflow" version="6.1.1.N201512011200" state="initial" order="33" size="16053507" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/idebuildRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="INSTALLER" name="com.ti.ccstudio.installer.linux" version="6.1.2.00015" state="initial" order="152" size="353" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="6.1.2.00015.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="JRE" name="jre" version="1.7.0.60" state="initial" order="1" size="48107508" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="jre_1.7.0_60.zip" arguments="'/home/ics-mat/ti/ccsv6'" location="/home/ics-mat/ti/ccsv6/eclipse/jre/bin"/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="KEYSTONE1" name="com.ti.emulation.keystone1.linux" version="1.0.10.0" state="initial" order="118" size="1515592" pf_filter="KEYSTONE1" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_emupack_keystone1_setup_1.0.10.0.bin" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="uninstall_ti_emupack_keystone1.bin" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="KEYSTONE2" name="com.ti.emulation.keystone2.linux" version="1.1.3.0" state="initial" order="67" size="1569332" pf_filter="KEYSTONE2" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_emupack_keystone2_setup_1.1.3.0.bin" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="uninstall_ti_emupack_keystone2.bin" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="MSP430_CGT_HELP" name="com.ti.cgt.msp430.4.4.help" version="4.4.1.201501021554" state="initial" order="71" size="4404292" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/msp430helprepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="P2APP" name="com.ti.ccstudio.p2appf" version="6.1.1.N201512011200" state="initial" order="39" size="39753" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/p2appfRepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="P2TOOLS" name="com.ti.ccstudio.p2tool" version="6.0.0.201410081509" state="initial" order="35" size="363791" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/lwrepo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/'" location="/home/ics-mat/ti/ccsv6/eclipse"/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="TARGETDB_DEF_PROPS" name="com.ti.ccstudio.targetdb.props.default.linux" version="6.0.0.20131206" state="initial" order="138" size="2301" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="targetdb_default_props_6.0.0.20131206.zip" arguments="'/home/ics-mat/ti/ccsv6'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="TARGET_CONTENT_CORE" name="com.ti.targetcontent.feature.group" version="3.31.0.24" state="initial" order="41" size="25442343" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/targetcontent_core_repo">
+            <Installer name="" arguments="--mode silent  --prefix '/home/ics-mat/ti/ccsv6/..'" location=""/>
+            <Uninstaller name="" arguments="--mode silent" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="TIVA_STELLARIS_DRIVERS" name="com.ti.tiva_stellaris.setup.linux" version="2.1.1.15071" state="initial" order="44" size="5556229" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ti_tiva_stellaris_setup_2.1.1.15071.bin" arguments="--mode unattended --ccs true  --prefix '/home/ics-mat/ti/ccsv6' --eclipseprefix  '/home/ics-mat/ti/ccsv6/eclipse' " location=""/>
+            <Uninstaller name="" arguments="--mode unattended" location="'/home/ics-mat/ti/ccsv6'"/>
+        </Feature>
+        <Feature tag="TIVA_TM4C" name="com.ti.tiva_tm4c.setup.linux" version="2.1.1.15071" state="initial" order="113" size="920588" pf_filter="TIVAC" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ccs_tiva_tm4c_devices_files_2_1_1_15071.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="TIVA_TM4E" name="com.ti.tiva_tm4e.setup.linux" version="2.1.1.15071" state="initial" order="116" size="462451" pf_filter="TIVAE" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="ccs_tiva_tm4e_devices_files_2_1_1_15071.zip" arguments="'/home/ics-mat/ti/ccsv6/ccs_base'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+        <Feature tag="XULRUNNER" name="com.ti.ccstudio.xulrunner.linux" version="10.4.0" state="initial" order="107" size="14288508" pf_filter="" location="http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo">
+            <Installer name="xulrunner_10.4.0.tar.gz" arguments="'/home/ics-mat/ti/ccsv6/eclipse'" location=""/>
+            <Uninstaller name="" arguments="" location=""/>
+        </Feature>
+    </Features>
+    <InstalledFeatures>
+        <FeatureSelected tag="IDE_MSP430"/>
+        <FeatureSelected tag="EMU_MSP430"/>
+        <FeatureSelected tag="EMU_MSP432"/>
+        <FeatureSelected tag="TIVA_STELLARIS_DRIVERS"/>
+        <FeatureSelected tag="EMU_TI"/>
+        <FeatureSelected tag="MSP430_CGT_HELP"/>
+        <FeatureSelected tag="CGT_DEFAULTLIBS_MSP430"/>
+        <FeatureSelected tag="DMED"/>
+        <FeatureSelected tag="ARM_CGT_HELP"/>
+        <FeatureSelected tag="CGT_DEFAULTLIBS_TMS470"/>
+        <FeatureSelected tag="IDE_ARM"/>
+        <FeatureSelected tag="GCC_ARM_COMPILER"/>
+        <FeatureSelected tag="C2000_CGT_HELP"/>
+        <FeatureSelected tag="CGT_DEFAULTLIBS_C2800"/>
+        <FeatureSelected tag="DEV_SUPPORT_CC2538"/>
+        <FeatureSelected tag="DEV_SUPPORT_CC26XX"/>
+        <FeatureSelected tag="DEV_SUPPORT_CC32XX"/>
+        <FeatureSelected tag="DEV_SUPPORT_CC32XX_COMMON"/>
+        <FeatureSelected tag="EMU_STELLARIS"/>
+        <FeatureSelected tag="TIVA_TM4C"/>
+        <FeatureSelected tag="TIVA_TM4E"/>
+        <FeatureSelected tag="EMU_HERCULES"/>
+        <FeatureSelected tag="C6000_CGT_HELP"/>
+        <FeatureSelected tag="CGT_DEFAULTLIBS_C6000_V8P"/>
+        <FeatureSelected tag="DEV_SUPPORT_INTEGRA"/>
+        <FeatureSelected tag="DEV_SUPPORT_OMAP"/>
+        <FeatureSelected tag="DEV_SUPPORT_DAVINCI"/>
+        <FeatureSelected tag="CGT_DEFAULTLIBS_C6000"/>
+        <FeatureSelected tag="DEV_SUPPORT_C6000"/>
+        <FeatureSelected tag="DEV_SUPPORT_C55XX"/>
+        <FeatureSelected tag="C5500_CGT_HELP"/>
+        <FeatureSelected tag="CGT_DEFAULTLIBS_C5500"/>
+        <FeatureSelected tag="KEYSTONE1"/>
+        <FeatureSelected tag="KEYSTONE2"/>
+        <FeatureSelected tag="DEV_SUPPORT_C6000MC"/>
+        <FeatureSelected tag="DEV_SUPPORT_UCD31XX"/>
+        <FeatureSelected tag="EMU_BH"/>
+        <FeatureSelected tag="EMU_SD"/>
+        <FeatureSelected tag="JRE"/>
+        <FeatureSelected tag="P2APP"/>
+        <FeatureSelected tag="ECLIPSE"/>
+        <FeatureSelected tag="ECLIPSECORE"/>
+        <FeatureSelected tag="P2TOOLS"/>
+        <FeatureSelected tag="GMF"/>
+        <FeatureSelected tag="IDE_MAIN"/>
+        <FeatureSelected tag="IDE_WORKFLOW"/>
+        <FeatureSelected tag="DVT_COMMON"/>
+        <FeatureSelected tag="DVT_UIA"/>
+        <FeatureSelected tag="DVT_VIA_CCS"/>
+        <FeatureSelected tag="XULRUNNER"/>
+        <FeatureSelected tag="INSTALLER"/>
+        <FeatureSelected tag="IDE_CHROME"/>
+        <FeatureSelected tag="IDE_TOOLS_COMMON"/>
+        <FeatureSelected tag="IDE_GC"/>
+        <FeatureSelected tag="TARGET_CONTENT_CORE"/>
+        <FeatureSelected tag="DS"/>
+        <FeatureSelected tag="DS_FLASH"/>
+        <FeatureSelected tag="DVT_ENERGYTRACE"/>
+        <FeatureSelected tag="IDE_C2000"/>
+        <FeatureSelected tag="EMU_C2000_FLASH"/>
+        <FeatureSelected tag="EMU_C2000"/>
+        <FeatureSelected tag="GREE_C2000_SUPPORT"/>
+        <FeatureSelected tag="DVT_TRACE"/>
+        <FeatureSelected tag="DEV_SUPPORT_SITARA"/>
+        <FeatureSelected tag="DEV_SUPPORT_SHARED"/>
+        <FeatureSelected tag="BBONE_FTDI_DRIVERS"/>
+        <FeatureSelected tag="ARM_QT"/>
+        <FeatureSelected tag="IDE_C6000"/>
+        <FeatureSelected tag="IDE_C5500"/>
+        <FeatureSelected tag="CCS_DOC"/>
+        <FeatureSelected tag="CCS_LAUNCHER"/>
+        <FeatureSelected tag="CCS_UTILS"/>
+        <FeatureSelected tag="TARGETDB_DEF_PROPS"/>
+    </InstalledFeatures>
+    <ProductFamilies>
+        <FeatureSelected tag="PF_MSP430"/>
+        <FeatureSelected tag="PF_C28"/>
+        <FeatureSelected tag="PF_WIRELESS"/>
+        <FeatureSelected tag="PF_STELLARIS"/>
+        <FeatureSelected tag="PF_SITARA"/>
+        <FeatureSelected tag="PF_OMAPL13"/>
+        <FeatureSelected tag="PF_C6000_SINGLE"/>
+        <FeatureSelected tag="PF_C6000_MULTI"/>
+        <FeatureSelected tag="PF_DIGITAL_POWER"/>
+    </ProductFamilies>
+    <Devices>
+        <Device tag="MSP430"/>
+        <Device tag="MSP432"/>
+        <Device tag="C2000"/>
+        <Device tag="ARM"/>
+        <Device tag="C6000"/>
+        <Device tag="C5500"/>
+        <Device tag="C5400"/>
+        <Device tag="UCD31xx"/>
+    </Devices>
+    <PF_Filters>
+        <PF_Filter tag="C5500"/>
+        <PF_Filter tag="C6000_SC"/>
+        <PF_Filter tag="MULTICORE64"/>
+        <PF_Filter tag="CC2XXX"/>
+        <PF_Filter tag="CC3XXX"/>
+        <PF_Filter tag="MEDIA"/>
+        <PF_Filter tag="OMAP"/>
+        <PF_Filter tag="SITARA"/>
+        <PF_Filter tag="UCD31XX"/>
+        <PF_Filter tag="C2000"/>
+        <PF_Filter tag="SAFETY"/>
+        <PF_Filter tag="MSP430"/>
+        <PF_Filter tag="MSP432"/>
+        <PF_Filter tag="STELLARIS"/>
+        <PF_Filter tag="KEYSTONE1"/>
+        <PF_Filter tag="KEYSTONE2"/>
+        <PF_Filter tag="TIVAC"/>
+        <PF_Filter tag="TIVAE"/>
+    </PF_Filters>
+</Edition>
+

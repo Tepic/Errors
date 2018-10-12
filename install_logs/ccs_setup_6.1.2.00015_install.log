@@ -1,0 +1,581 @@
+10/12/2018 10:21:32(GMT) - Util::checkurl - Checking http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt from checkurl
+10/12/2018 10:21:32(GMT) - formatUrlForDownload - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux
+10/12/2018 10:21:32(GMT) - Util::httpCopy - http::config now: -accept */* -proxyfilter http::ProxyRequired -proxyhost {} -proxyport {} -urlencoding utf-8 -useragent {Tcl http client package 2.5.5}
+10/12/2018 10:21:32(GMT) - Util::httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/tmpfile from http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt
+10/12/2018 10:21:32(GMT) - Util::httpCopy - httpstate= Server: Apache
+10/12/2018 10:21:32(GMT) - Util::httpCopy - httpstate= Location: http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt
+10/12/2018 10:21:32(GMT) - Util::httpCopy - Redirecting Location:http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt
+10/12/2018 10:21:32(GMT) - Util::httpCopy - http::config now: -accept */* -proxyfilter http::ProxyRequired -proxyhost {} -proxyport {} -urlencoding utf-8 -useragent {Tcl http client package 2.5.5}
+10/12/2018 10:21:32(GMT) - Util::httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/tmpfile from http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Server: Apache
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= ETag: "5970e704e3e552408e9f74001d1e26a1:1451948961"
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Last-Modified: Mon, 04 Jan 2016 20:25:32 GMT
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Accept-Ranges: bytes
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Content-Length: 14
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Content-Type: text/plain
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Date: Fri, 12 Oct 2018 10:21:33 GMT
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Connection: close
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_geo=country=DE|city=STUTTGART|continent=EU|tc_ip=134.105.93.12; path=/; domain=.ti.com
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_perf=throughput=vhigh|network=|network_type=|bw=5000|proxy=; path=/; domain=.ti.com
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_ua=Tcl%20http%20client%20package%202.5.5; path=/; domain=.ti.com
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_bm=; path=/; domain=.ti.com
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= content-disposition: attachment; filename="timestamp.txt"
+10/12/2018 10:21:33(GMT) - Util::checkurl - Checking http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt from checkurl
+10/12/2018 10:21:33(GMT) - formatUrlForDownload - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux
+10/12/2018 10:21:33(GMT) - Util::httpCopy - http::config now: -accept */* -proxyfilter http::ProxyRequired -proxyhost {} -proxyport {} -urlencoding utf-8 -useragent {Tcl http client package 2.5.5}
+10/12/2018 10:21:33(GMT) - Util::httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/tmpfile from http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Server: Apache
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Location: http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt
+10/12/2018 10:21:33(GMT) - Util::httpCopy - Redirecting Location:http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt
+10/12/2018 10:21:33(GMT) - Util::httpCopy - http::config now: -accept */* -proxyfilter http::ProxyRequired -proxyhost {} -proxyport {} -urlencoding utf-8 -useragent {Tcl http client package 2.5.5}
+10/12/2018 10:21:33(GMT) - Util::httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/tmpfile from http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/timestamp.txt
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Server: Apache
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= ETag: "5970e704e3e552408e9f74001d1e26a1:1451948961"
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Last-Modified: Mon, 04 Jan 2016 20:25:32 GMT
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Accept-Ranges: bytes
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Content-Length: 14
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Content-Type: text/plain
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Date: Fri, 12 Oct 2018 10:21:33 GMT
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Connection: close
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_geo=country=DE|city=STUTTGART|continent=EU|tc_ip=134.105.93.12; path=/; domain=.ti.com
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_perf=throughput=vhigh|network=|network_type=|bw=5000|proxy=; path=/; domain=.ti.com
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_ua=Tcl%20http%20client%20package%202.5.5; path=/; domain=.ti.com
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_bm=; path=/; domain=.ti.com
+10/12/2018 10:21:33(GMT) - Util::httpCopy - httpstate= content-disposition: attachment; filename="timestamp.txt"
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - LD_LIBRARY_PATH == :/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/tcl/lib
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - tempLD == {}
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - cmd = /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/dependency-checker/check_depends.sh --ldpath 
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - ran /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/dependency-checker/check_depends.sh --ldpath :Installed versions of glibc and glibcxx: GLIBC_2.23, N/A
+Required versions of glibc and glibcxx:  GLIBC_2.11, GLIBCXX_3.4.16
+Checking availability of libraries in ext-depends.txt ...
+Failed to find lib: libgcrypt.so.11
+Done.
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - Line: Installed versions of glibc and glibcxx: GLIBC_2.23, N/A
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - Line: Required versions of glibc and glibcxx:  GLIBC_2.11, GLIBCXX_3.4.16
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - Line: Checking availability of libraries in ext-depends.txt ...
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - Line: Failed to find lib: libgcrypt.so.11
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - Val:  libgcrypt.so.11
+10/12/2018 10:21:33(GMT) - Validation::linuxLibChecks - Line: Done.
+10/12/2018 10:22:13(GMT) - Util::httpCopy - http::config now: -accept */* -proxyfilter http::ProxyRequired -proxyhost {} -proxyport {} -urlencoding utf-8 -useragent {Tcl http client package 2.5.5}
+10/12/2018 10:22:13(GMT) - Util::httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/apps_6.1.2.json from http://software-dl.ti.com/ccs/non-esd/ccs_appcenter/apps_6.1.2.json
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Server: Apache
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Last-Modified: Mon, 04 Apr 2016 22:14:37 GMT
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= ETag: "6efc-52fb00ddead40"
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Accept-Ranges: bytes
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Content-Length: 28412
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Content-Type: application/json
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Date: Fri, 12 Oct 2018 10:22:13 GMT
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Connection: close
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_geo=country=DE|city=STUTTGART|continent=EU|tc_ip=134.105.93.12; path=/; domain=.ti.com
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_perf=throughput=vhigh|network=|network_type=|bw=5000|proxy=; path=/; domain=.ti.com
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_ua=Tcl%20http%20client%20package%202.5.5; path=/; domain=.ti.com
+10/12/2018 10:22:13(GMT) - Util::httpCopy - httpstate= Set-Cookie: ti_bm=; path=/; domain=.ti.com
+10/12/2018 10:22:30(GMT) - writeDebugFile - 
+
+Install Information:
+
+
+10/12/2018 10:22:30(GMT) - writeDebugFile - Install Version:  6.1.2.00015
+10/12/2018 10:22:30(GMT) - writeDebugFile - Install Source	: /home/ics-mat/Downloads/CCS6.1.2.00015_web_linux
+10/12/2018 10:22:30(GMT) - writeDebugFile - Install Temp	: /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d
+10/12/2018 10:22:30(GMT) - writeDebugFile - Install Type	: Web
+10/12/2018 10:22:30(GMT) - writeDebugFile - OS				: Linux
+10/12/2018 10:22:30(GMT) - writeDebugFile - OS	Version		: 4.9.84-rt62
+10/12/2018 10:22:30(GMT) - writeDebugFile - OS	Platform	: unix
+10/12/2018 10:22:30(GMT) - writeDebugFile -  				: 64-bit
+10/12/2018 10:22:30(GMT) - writeDebugFile - User ID		: ics-mat
+10/12/2018 10:22:30(GMT) - writeDebugFile - Timezone		: CEST
+10/12/2018 10:22:30(GMT) - writeDebugFile - IPAddress		: 127.0.1.1
+10/12/2018 10:22:30(GMT) - writeDebugFile - Update/Rerun	: 0
+10/12/2018 10:22:30(GMT) - writeDebugFile - Command line	: installersrc /home/ics-mat/Downloads/CCS6.1.2.00015_web_linux installertmp /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d buildid 6.1.2.00015 installer /home/ics-mat/Downloads/CCS6.1.2.00015_web_linux/ccs_setup_6.1.2.00015.bin bitness 64-bit os linux
+
+10/12/2018 10:22:30(GMT) - writeDebugFile - CCS_WARNING: {Failed to locate 32-bit system libraries required for CCS operation:
+
+} { libgcrypt.so.11} {
+
+For more information on how to install these, please visit:
+http://processors.wiki.ti.com/index.php/Linux_Host_Support_CCSv6}
+10/12/2018 10:22:30(GMT) - writeDebugFile - 
+Product families selected: 
+10/12/2018 10:22:30(GMT) - writeDebugFile - PF_MSP430
+10/12/2018 10:22:30(GMT) - writeDebugFile - PF_C28
+10/12/2018 10:22:30(GMT) - writeDebugFile - PF_WIRELESS
+10/12/2018 10:22:30(GMT) - writeDebugFile - PF_STELLARIS
+10/12/2018 10:22:30(GMT) - writeDebugFile - PF_SITARA
+10/12/2018 10:22:30(GMT) - writeDebugFile - PF_OMAPL13
+10/12/2018 10:22:30(GMT) - writeDebugFile - PF_C6000_SINGLE
+10/12/2018 10:22:30(GMT) - writeDebugFile - PF_C6000_MULTI
+10/12/2018 10:22:30(GMT) - writeDebugFile - PF_DIGITAL_POWER
+10/12/2018 10:22:30(GMT) - writeDebugFile - 
+Components to be installed: 
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_MSP430
+10/12/2018 10:22:30(GMT) - writeDebugFile - EMU_MSP430
+10/12/2018 10:22:30(GMT) - writeDebugFile - EMU_MSP432
+10/12/2018 10:22:30(GMT) - writeDebugFile - TIVA_STELLARIS_DRIVERS
+10/12/2018 10:22:30(GMT) - writeDebugFile - EMU_TI
+10/12/2018 10:22:30(GMT) - writeDebugFile - MSP430_CGT_HELP
+10/12/2018 10:22:30(GMT) - writeDebugFile - CGT_DEFAULTLIBS_MSP430
+10/12/2018 10:22:30(GMT) - writeDebugFile - DMED
+10/12/2018 10:22:30(GMT) - writeDebugFile - ARM_CGT_HELP
+10/12/2018 10:22:30(GMT) - writeDebugFile - CGT_DEFAULTLIBS_TMS470
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_ARM
+10/12/2018 10:22:30(GMT) - writeDebugFile - GCC_ARM_COMPILER
+10/12/2018 10:22:30(GMT) - writeDebugFile - C2000_CGT_HELP
+10/12/2018 10:22:30(GMT) - writeDebugFile - CGT_DEFAULTLIBS_C2800
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_CC2538
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_CC26XX
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_CC32XX
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_CC32XX_COMMON
+10/12/2018 10:22:30(GMT) - writeDebugFile - EMU_STELLARIS
+10/12/2018 10:22:30(GMT) - writeDebugFile - TIVA_TM4C
+10/12/2018 10:22:30(GMT) - writeDebugFile - TIVA_TM4E
+10/12/2018 10:22:30(GMT) - writeDebugFile - EMU_HERCULES
+10/12/2018 10:22:30(GMT) - writeDebugFile - C6000_CGT_HELP
+10/12/2018 10:22:30(GMT) - writeDebugFile - CGT_DEFAULTLIBS_C6000_V8P
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_INTEGRA
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_OMAP
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_DAVINCI
+10/12/2018 10:22:30(GMT) - writeDebugFile - CGT_DEFAULTLIBS_C6000
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_C6000
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_C55XX
+10/12/2018 10:22:30(GMT) - writeDebugFile - C5500_CGT_HELP
+10/12/2018 10:22:30(GMT) - writeDebugFile - CGT_DEFAULTLIBS_C5500
+10/12/2018 10:22:30(GMT) - writeDebugFile - KEYSTONE1
+10/12/2018 10:22:30(GMT) - writeDebugFile - KEYSTONE2
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_C6000MC
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_UCD31XX
+10/12/2018 10:22:30(GMT) - writeDebugFile - EMU_BH
+10/12/2018 10:22:30(GMT) - writeDebugFile - EMU_SD
+10/12/2018 10:22:30(GMT) - writeDebugFile - JRE
+10/12/2018 10:22:30(GMT) - writeDebugFile - P2APP
+10/12/2018 10:22:30(GMT) - writeDebugFile - ECLIPSE
+10/12/2018 10:22:30(GMT) - writeDebugFile - ECLIPSECORE
+10/12/2018 10:22:30(GMT) - writeDebugFile - P2TOOLS
+10/12/2018 10:22:30(GMT) - writeDebugFile - GMF
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_MAIN
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_WORKFLOW
+10/12/2018 10:22:30(GMT) - writeDebugFile - DVT_COMMON
+10/12/2018 10:22:30(GMT) - writeDebugFile - DVT_UIA
+10/12/2018 10:22:30(GMT) - writeDebugFile - DVT_VIA_CCS
+10/12/2018 10:22:30(GMT) - writeDebugFile - XULRUNNER
+10/12/2018 10:22:30(GMT) - writeDebugFile - INSTALLER
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_CHROME
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_TOOLS_COMMON
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_GC
+10/12/2018 10:22:30(GMT) - writeDebugFile - TARGET_CONTENT_CORE
+10/12/2018 10:22:30(GMT) - writeDebugFile - DS
+10/12/2018 10:22:30(GMT) - writeDebugFile - DS_FLASH
+10/12/2018 10:22:30(GMT) - writeDebugFile - DVT_ENERGYTRACE
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_C2000
+10/12/2018 10:22:30(GMT) - writeDebugFile - EMU_C2000_FLASH
+10/12/2018 10:22:30(GMT) - writeDebugFile - EMU_C2000
+10/12/2018 10:22:30(GMT) - writeDebugFile - GREE_C2000_SUPPORT
+10/12/2018 10:22:30(GMT) - writeDebugFile - DVT_TRACE
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_SITARA
+10/12/2018 10:22:30(GMT) - writeDebugFile - DEV_SUPPORT_SHARED
+10/12/2018 10:22:30(GMT) - writeDebugFile - BBONE_FTDI_DRIVERS
+10/12/2018 10:22:30(GMT) - writeDebugFile - ARM_QT
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_C6000
+10/12/2018 10:22:30(GMT) - writeDebugFile - IDE_C5500
+10/12/2018 10:22:30(GMT) - writeDebugFile - 
+Apps to be installed when CCS starts up: 
+10/12/2018 10:22:30(GMT) - writeDebugFile - iu=com.ti.gcc.msp430.linux.feature.group
+10/12/2018 10:22:30(GMT) - writeDebugFile - repo=http://software-dl.ti.com/ccs/esd/msp430/
+10/12/2018 10:22:30(GMT) - writeDebugFile - iu=com.ti.cgt.pru..*.linux.feature.group:resolve
+10/12/2018 10:22:30(GMT) - writeDebugFile - repo=http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/
+10/12/2018 10:22:30(GMT) - writeDebugFile - iu=com.ti.cgt.arp32..*.linux.feature.group:resolve
+10/12/2018 10:22:30(GMT) - writeDebugFile - repo=http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/
+10/12/2018 10:22:30(GMT) - writeDebugFile - iu=org.eclipse.cdt.autotools.feature.group,org.eclipse.cdt.build.crossgcc.feature.group,org.eclipse.linuxtools.callgraph.feature.feature.group,org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.group,org.eclipse.linuxtools.cdt.libhover.feature.feature.group,org.eclipse.linuxtools.changelog.c.feature.group,org.eclipse.linuxtools.ctf.feature.group,org.eclipse.linuxtools.gcov.feature.group,org.eclipse.linuxtools.gdbtrace.feature.group,org.eclipse.linuxtools.gprof.feature.feature.group,org.eclipse.linuxtools.lttng2.control.feature.group,org.eclipse.linuxtools.lttng2.kernel.feature.group,org.eclipse.linuxtools.lttng2.ust.feature.group,org.eclipse.linuxtools.profiling.feature.group,org.eclipse.linuxtools.rpm.feature.group,org.eclipse.linuxtools.tmf.ctf.feature.group,org.eclipse.linuxtools.tmf.feature.group,org.eclipse.linuxtools.valgrind.feature.group
+10/12/2018 10:22:30(GMT) - writeDebugFile - repo=http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/guicomposer/v6.1/EveElseRepo/
+10/12/2018 10:22:30(GMT) - writeDebugFile - iu=com.ti.msp430.msp430ware.linux.feature.group
+10/12/2018 10:22:30(GMT) - writeDebugFile - repo=http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP430ware/update/latest/
+10/12/2018 10:22:30(GMT) - writeDebugFile - iu=com.ti.ccstudio.gui.composer.ccs.feature.group,com.ti.gc.common.feature.group,org.eclipse.wst.jsdt.feature.feature.group,com.ti.chromium.browser.feature.group
+10/12/2018 10:22:30(GMT) - writeDebugFile - repo=http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/guicomposer/v6.1/gc-ccsRepo/,http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/guicomposer/v6.1/gcRepo/,http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/guicomposer/v6.1/EveElseRepo/,http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/guicomposer/v6.1/linux32/browserRepo
+10/12/2018 10:22:30(GMT) - getprefix - installdir for ARM_CGT_HELP: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for C2000_CGT_HELP: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for C5500_CGT_HELP: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for C6000_CGT_HELP: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getinstalluninstallcmds - Did not find matching component in InstallIni CCS_DOC. Using Defaults.
+10/12/2018 10:22:30(GMT) - getinstalluninstallcmds - Did not find matching component in InstallIni CCS_LAUNCHER. Using Defaults.
+10/12/2018 10:22:30(GMT) - getinstalluninstallcmds - Did not find matching component in InstallIni CCS_UTILS. Using Defaults.
+10/12/2018 10:22:30(GMT) - getprefix - installdir for DVT_COMMON: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for DVT_ENERGYTRACE: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for DVT_TRACE: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for DVT_UIA: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for DVT_VIA_CCS: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for ECLIPSE: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for EMU_SD: /home/ics-mat/ti/ccsv6/ccs_base
+10/12/2018 10:22:30(GMT) - getprefix - installdir for GMF: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_ARM: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_C2000: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_C5500: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_C6000: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_CHROME: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_GC: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_MAIN: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_MSP430: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_TOOLS_COMMON: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for IDE_WORKFLOW: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for KEYSTONE1: /home/ics-mat/ti/ccsv6/ccs_base
+10/12/2018 10:22:30(GMT) - getprefix - installdir for KEYSTONE2: /home/ics-mat/ti/ccsv6/ccs_base
+10/12/2018 10:22:30(GMT) - getprefix - installdir for MSP430_CGT_HELP: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for P2APP: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getprefix - installdir for P2TOOLS: /home/ics-mat/ti/ccsv6/
+10/12/2018 10:22:30(GMT) - getinstalluninstallcmds - Did not find matching component in InstallIni TARGETDB_DEF_PROPS. Using Defaults.
+10/12/2018 10:22:30(GMT) - getprefix - installdir for TARGET_CONTENT_CORE: /home/ics-mat/ti/ccsv6/..
+10/12/2018 10:22:30(GMT) - Util::getProperty - No /home/ics-mat/ti/ccsv6/eclipse/ccs.properties file found
+10/12/2018 10:22:30(GMT) - Util::getProperty - No /home/ics-mat/ti/ccsv6/eclipse/ccs.properties file found
+10/12/2018 10:22:31(GMT) - ProgressPane::Run - non-threaded
+10/12/2018 10:22:31(GMT) - ProgressPane::Run - RunInstall /home/ics-mat/ti/ccsv6/eclipse/ccs_config.xml 0 0 0 0 /home/ics-mat/ti/ccsv6/install_logs/ccs_setup_6.1.2.00015_install.log ::progressPane0 -1
+10/12/2018 10:22:31(GMT) - RunMain - Started with params pConfigFile=/home/ics-mat/ti/ccsv6/eclipse/ccs_config.xml pProfiling=0 pUpdate=0 logfile=/home/ics-mat/ti/ccsv6/install_logs/ccs_setup_6.1.2.00015_install.log progress=::progressUpdate0
+10/12/2018 10:22:31(GMT) - RunMain - encoding = utf-8
+10/12/2018 10:22:31(GMT) - readConfigFile - Start installing components:
+10/12/2018 10:22:31(GMT) - readConfigFile - read config file /home/ics-mat/ti/ccsv6/eclipse/ccs_config.xml
+10/12/2018 10:22:31(GMT) - readConfigFile - found /home/ics-mat/ti/ccsv6/eclipse/ccs_config.xml
+10/12/2018 10:22:31(GMT) - readConfigFile - Parsing Root Elements
+10/12/2018 10:22:31(GMT) - readConfigFile - Done Parsing
+10/12/2018 10:22:31(GMT) - readConfigFile - CCSDIR=/home/ics-mat/ti/ccsv6
+10/12/2018 10:22:31(GMT) - readConfigFile - EclipseDir=/home/ics-mat/ti/ccsv6/eclipse
+10/12/2018 10:22:31(GMT) - readConfigFile - InstallDir=/home/ics-mat/ti
+10/12/2018 10:22:31(GMT) - readConfigFile - TempDir=/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d
+10/12/2018 10:22:31(GMT) - readConfigFile - platform=linux
+10/12/2018 10:22:31(GMT) - readConfigFile - LocalBaseRepository=/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo
+10/12/2018 10:22:31(GMT) - readConfigFile - baserepourl=http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo
+10/12/2018 10:22:31(GMT) - readConfigFile - featureurl=http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo
+10/12/2018 10:22:31(GMT) - readConfigFile - LocalRepository_Exists=0
+10/12/2018 10:22:31(GMT) - readConfigFile - componentinstaller=false
+10/12/2018 10:22:31(GMT) - readConfigFile - eclipseexe=eclipse
+10/12/2018 10:22:31(GMT) - readConfigFile - in install components
+10/12/2018 10:22:31(GMT) - readUserProfile - userprofile = 
+10/12/2018 10:22:31(GMT) - formatUrlForEclipse - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/start
+10/12/2018 10:22:31(GMT) - downloadMarker - CCS_INFO: Downloading marker file: http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/start
+10/12/2018 10:22:31(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/start from http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/start
+10/12/2018 10:22:31(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:22:31(GMT) - httpCopy - httpstate= Location: http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/start
+10/12/2018 10:22:31(GMT) - httpCopy - Redirecting Location:http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/start
+10/12/2018 10:22:31(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/start from http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/start
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Content-Type: text/html; charset=iso-8859-1
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Content-Length: 16
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Date: Fri, 12 Oct 2018 10:22:33 GMT
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Connection: close
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Set-Cookie: ti_geo=country=DE|city=STUTTGART|continent=EU|tc_ip=134.105.93.12; path=/; domain=.ti.com
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Set-Cookie: ti_perf=throughput=vhigh|network=|network_type=|bw=5000|proxy=; path=/; domain=.ti.com
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Set-Cookie: ti_ua=Tcl%20http%20client%20package%202.5.5; path=/; domain=.ti.com
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Set-Cookie: ti_bm=; path=/; domain=.ti.com
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= content-disposition: attachment; filename="start"
+10/12/2018 10:22:33(GMT) - downloadIfRequired - deleted /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/jre_root.gtk.linux.x86_1.7.0.60
+10/12/2018 10:22:33(GMT) - downloadIfRequired - File /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/jre_root.gtk.linux.x86_1.7.0.60 does not exist. Attempting to download
+10/12/2018 10:22:33(GMT) - formatUrlForEclipse - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo/binary/jre_root.gtk.linux.x86_1.7.0.60
+10/12/2018 10:22:33(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/jre_root.gtk.linux.x86_1.7.0.60 from http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo/binary/jre_root.gtk.linux.x86_1.7.0.60
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:22:33(GMT) - httpCopy - httpstate= Location: http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo/binary/jre_root.gtk.linux.x86_1.7.0.60
+10/12/2018 10:22:33(GMT) - httpCopy - Redirecting Location:http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo/binary/jre_root.gtk.linux.x86_1.7.0.60
+10/12/2018 10:22:33(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/jre_root.gtk.linux.x86_1.7.0.60 from http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo/binary/jre_root.gtk.linux.x86_1.7.0.60
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Accept-Ranges: bytes
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Content-Type: text/plain
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Last-Modified: Mon, 04 Jan 2016 20:24:42 GMT
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= ETag: "d6518f78538343e38f582a45aae17d91:1451949061"
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Content-Length: 48107508
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Date: Fri, 12 Oct 2018 10:22:34 GMT
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Connection: close
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Set-Cookie: ti_geo=country=DE|city=STUTTGART|continent=EU|tc_ip=134.105.93.12; path=/; domain=.ti.com
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Set-Cookie: ti_perf=throughput=vhigh|network=|network_type=|bw=5000|proxy=; path=/; domain=.ti.com
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Set-Cookie: ti_ua=Tcl%20http%20client%20package%202.5.5; path=/; domain=.ti.com
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= Set-Cookie: ti_bm=; path=/; domain=.ti.com
+10/12/2018 10:23:12(GMT) - httpCopy - httpstate= content-disposition: attachment; filename="jre_root.gtk.linux.x86_1.7.0.60"
+10/12/2018 10:23:12(GMT) - extract - cmd = "unzip" -q -o -d "/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d" "/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/jre_root.gtk.linux.x86_1.7.0.60"
+10/12/2018 10:23:12(GMT) - extract - successfully unzipped /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/jre_root.gtk.linux.x86_1.7.0.60
+10/12/2018 10:23:12(GMT) - extract - cmd = "unzip" -q -o -d "/home/ics-mat/ti/ccsv6/eclipse" "/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/downloads/jre_1.7.0_60.zip"
+10/12/2018 10:23:14(GMT) - extract - successfully unzipped /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/downloads/jre_1.7.0_60.zip
+10/12/2018 10:23:14(GMT) - installEclipse - In InstallEclipse for linux
+10/12/2018 10:23:14(GMT) - downloadIfRequired - deleted /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip
+10/12/2018 10:23:14(GMT) - downloadIfRequired - File /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip does not exist. Attempting to download
+10/12/2018 10:23:14(GMT) - formatUrlForEclipse - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip
+10/12/2018 10:23:14(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip from http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip
+10/12/2018 10:23:14(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:23:14(GMT) - httpCopy - httpstate= Location: http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip
+10/12/2018 10:23:14(GMT) - httpCopy - Redirecting Location:http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip
+10/12/2018 10:23:14(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip from http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Accept-Ranges: bytes
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Content-Type: application/zip
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Last-Modified: Tue, 25 Feb 2014 16:02:36 GMT
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= ETag: "325cdc88bc84fed78a9b4887db6a1d12:1451948964"
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Content-Length: 6035829
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Date: Fri, 12 Oct 2018 10:23:15 GMT
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Connection: close
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Set-Cookie: ti_geo=country=DE|city=STUTTGART|continent=EU|tc_ip=134.105.93.12; path=/; domain=.ti.com
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Set-Cookie: ti_perf=throughput=vhigh|network=|network_type=|bw=5000|proxy=; path=/; domain=.ti.com
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Set-Cookie: ti_ua=Tcl%20http%20client%20package%202.5.5; path=/; domain=.ti.com
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= Set-Cookie: ti_bm=; path=/; domain=.ti.com
+10/12/2018 10:23:19(GMT) - httpCopy - httpstate= content-disposition: attachment; filename="eclipse_core_4.3.0.rtm_4_candidate.zip"
+10/12/2018 10:23:19(GMT) - extract - cmd = "unzip" -q -o -d "/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d" "/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip"
+10/12/2018 10:23:19(GMT) - extract - successfully unzipped /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/eclipse_core_4.3.0.rtm_4_candidate.zip
+10/12/2018 10:23:19(GMT) - findLauncher - launcher version = 1.3.0.v20130327-1440
+10/12/2018 10:23:19(GMT) - formatUrlForEclipse - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/eclipserepo
+10/12/2018 10:23:19(GMT) - installEclipse - CCS_INFO: eclipse does not exist
+10/12/2018 10:23:19(GMT) - installEclipse - using /home/ics-mat/ti/ccsv6/eclipse/jre/bin/java
+10/12/2018 10:23:19(GMT) - installEclipse - "/home/ics-mat/ti/ccsv6/eclipse/jre/bin/java" -Xmx512m -Dorg.eclipse.ecf.provider.filetransfer.retrieve.readTimeout=30000 -Dorg.eclipse.ecf.provider.filetransfer.retrieve.closeTimeout=10000 -Dsun.net.client.defaultConnectTimeout=10000 -Dsun.net.client.defaultReadTimeout=30000  "-Dosgi.configuration.area=/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/eclipse/cfg" "-Dosgi.instance.area=/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/eclipse/ws" -jar "/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/eclipse/plugins/org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar" -application org.eclipse.equinox.p2.director -repository "http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/eclipserepo" -installIU org.eclipse.platform.ide,org.eclipse.help.feature.group,org.eclipse.equinox.p2.discovery.feature.feature.group,org.eclipse.equinox.p2.user.ui.feature.group,org.eclipse.cdt.feature.group,org.eclipse.cdt.debug.ui.memory.feature.group,org.eclipse.tm.terminal.sdk.feature.group,org.eclipse.epp.mpc.feature.group,org.eclipse.egit.feature.group,gnu.io.rxtx.feature.group,org.eclipse.cdt.build.crossgcc.feature.group,org.eclipse.rse.feature.group,org.eclipse.cdt.launch.remote.feature.group -destination "/home/ics-mat/ti/ccsv6/eclipse/" -profile epp.package.cpp -profileProperties org.eclipse.update.install.features=true -bundlepool "/home/ics-mat/ti/ccsv6/eclipse/" -p2.os linux -p2.ws gtk -p2.arch x86 -roaming 
+10/12/2018 10:23:19(GMT) - runEclipseApp - running cmd "/home/ics-mat/ti/ccsv6/eclipse/jre/bin/java" -Xmx512m -Dorg.eclipse.ecf.provider.filetransfer.retrieve.readTimeout=30000 -Dorg.eclipse.ecf.provider.filetransfer.retrieve.closeTimeout=10000 -Dsun.net.client.defaultConnectTimeout=10000 -Dsun.net.client.defaultReadTimeout=30000  "-Dosgi.configuration.area=/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/eclipse/cfg" "-Dosgi.instance.area=/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/eclipse/ws" -jar "/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/eclipse/plugins/org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar" -application org.eclipse.equinox.p2.director -repository "http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/eclipserepo" -installIU org.eclipse.platform.ide,org.eclipse.help.feature.group,org.eclipse.equinox.p2.discovery.feature.feature.group,org.eclipse.equinox.p2.user.ui.feature.group,org.eclipse.cdt.feature.group,org.eclipse.cdt.debug.ui.memory.feature.group,org.eclipse.tm.terminal.sdk.feature.group,org.eclipse.epp.mpc.feature.group,org.eclipse.egit.feature.group,gnu.io.rxtx.feature.group,org.eclipse.cdt.build.crossgcc.feature.group,org.eclipse.rse.feature.group,org.eclipse.cdt.launch.remote.feature.group -destination "/home/ics-mat/ti/ccsv6/eclipse/" -profile epp.package.cpp -profileProperties org.eclipse.update.install.features=true -bundlepool "/home/ics-mat/ti/ccsv6/eclipse/" -p2.os linux -p2.ws gtk -p2.arch x86 -roaming 
+10/12/2018 10:24:40(GMT) - runEclipseApp - Installing org.eclipse.platform.ide 4.4.1.M20140925-0400.
+Installing org.eclipse.help.feature.group 2.0.102.v20140925-0400.
+Installing org.eclipse.equinox.p2.discovery.feature.feature.group 1.0.200.v20140512-1802.
+Installing org.eclipse.equinox.p2.user.ui.feature.group 2.2.0.v20140911-0143.
+Installing org.eclipse.cdt.feature.group 8.5.0.201409172108.
+Installing org.eclipse.cdt.debug.ui.memory.feature.group 8.5.0.201409172108.
+Installing org.eclipse.tm.terminal.sdk.feature.group 3.3.300.201406060905.
+Installing org.eclipse.epp.mpc.feature.group 1.3.1.v20140908-1651.
+Installing org.eclipse.egit.feature.group 3.4.1.201406201815-r.
+Installing gnu.io.rxtx.feature.group 2.1.7.4_v20071016-7B57e7UAXMAAqGAGf.
+Installing org.eclipse.cdt.build.crossgcc.feature.group 8.5.0.201409172108.
+Installing org.eclipse.rse.feature.group 3.5.0.201406091451.
+Installing org.eclipse.cdt.launch.remote.feature.group 8.5.0.201409172108.
+Operation completed in 79004 ms. done.
+10/12/2018 10:24:40(GMT) - installEclipse - eclipse installed successfully, looking for binary
+10/12/2018 10:24:40(GMT) - downloadIfRequired - deleted /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/updateinstaller.zip
+10/12/2018 10:24:40(GMT) - downloadIfRequired - File /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/updateinstaller.zip does not exist. Attempting to download
+10/12/2018 10:24:40(GMT) - formatUrlForEclipse - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/updateinstaller.zip
+10/12/2018 10:24:40(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/updateinstaller.zip from http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/updateinstaller.zip
+10/12/2018 10:24:40(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:24:40(GMT) - httpCopy - httpstate= Location: http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/updateinstaller.zip
+10/12/2018 10:24:40(GMT) - httpCopy - Redirecting Location:http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/updateinstaller.zip
+10/12/2018 10:24:40(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/updateinstaller.zip from http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/updateinstaller.zip
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Accept-Ranges: bytes
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Content-Type: application/zip
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Last-Modified: Mon, 04 Jan 2016 20:32:27 GMT
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= ETag: "286bab2161249136f32022a10e0d925e:1451948988"
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Content-Length: 8332247
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Date: Fri, 12 Oct 2018 10:24:41 GMT
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Connection: close
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Set-Cookie: ti_geo=country=DE|city=STUTTGART|continent=EU|tc_ip=134.105.93.12; path=/; domain=.ti.com
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Set-Cookie: ti_perf=throughput=vhigh|network=|network_type=|bw=5000|proxy=; path=/; domain=.ti.com
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Set-Cookie: ti_ua=Tcl%20http%20client%20package%202.5.5; path=/; domain=.ti.com
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= Set-Cookie: ti_bm=; path=/; domain=.ti.com
+10/12/2018 10:24:45(GMT) - httpCopy - httpstate= content-disposition: attachment; filename="updateinstaller.zip"
+10/12/2018 10:24:45(GMT) - extract - cmd = "unzip" -q -o -d "/home/ics-mat/ti/ccsv6/eclipse" "/tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/updateinstaller.zip"
+10/12/2018 10:24:45(GMT) - extract - successfully unzipped /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/baserepo/updateinstaller.zip
+10/12/2018 10:24:45(GMT) - formatUrlForEclipse - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/p2appfRepo
+10/12/2018 10:24:45(GMT) - installP2app - "/home/ics-mat/ti/ccsv6/eclipse/eclipse" -application org.eclipse.equinox.p2.director -repository "http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/p2appfRepo" -installiu com.ti.ccstudio.p2appf.feature.group -nosplash 
+10/12/2018 10:24:45(GMT) - runEclipseApp - running cmd "/home/ics-mat/ti/ccsv6/eclipse/eclipse" -application org.eclipse.equinox.p2.director -repository "http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/p2appfRepo" -installiu com.ti.ccstudio.p2appf.feature.group -nosplash 
+10/12/2018 10:24:55(GMT) - runEclipseApp - FAILED 0: child killed: segmentation violation
+10/12/2018 10:24:55(GMT) - runEclipseApp - Running again
+10/12/2018 10:25:05(GMT) - runEclipseApp - FAILED 1: child killed: segmentation violation
+10/12/2018 10:25:05(GMT) - runEclipseApp - Running again
+10/12/2018 10:25:15(GMT) - runEclipseApp - FAILED 2: child killed: segmentation violation
+10/12/2018 10:25:15(GMT) - runEclipseApp - Running again
+10/12/2018 10:25:26(GMT) - runEclipseApp - FAILED 3: child killed: segmentation violation
+10/12/2018 10:25:26(GMT) - runEclipseApp - Running again
+10/12/2018 10:25:36(GMT) - runEclipseApp - FAILED 4: child killed: segmentation violation
+10/12/2018 10:25:36(GMT) - runEclipseApp - Running again
+10/12/2018 10:25:46(GMT) - runEclipseApp - FAILED 5: child killed: segmentation violation
+10/12/2018 10:25:46(GMT) - runEclipseApp - Running again
+10/12/2018 10:25:56(GMT) - runEclipseApp - FAILED 6: child killed: segmentation violation
+10/12/2018 10:25:56(GMT) - runEclipseApp - Running again
+10/12/2018 10:26:06(GMT) - runEclipseApp - FAILED 7: child killed: segmentation violation
+10/12/2018 10:26:06(GMT) - runEclipseApp - Running again
+10/12/2018 10:26:17(GMT) - runEclipseApp - FAILED 8: child killed: segmentation violation
+10/12/2018 10:26:17(GMT) - runEclipseApp - Running again
+10/12/2018 10:26:27(GMT) - runEclipseApp - FAILED 9: child killed: segmentation violation
+10/12/2018 10:26:27(GMT) - runEclipseApp - Running again
+10/12/2018 10:26:37(GMT) - runEclipseApp - FAILED 10: child killed: segmentation violation
+10/12/2018 10:26:37(GMT) - runEclipseApp - Running again
+10/12/2018 10:26:47(GMT) - runEclipseApp - FAILED 11: child killed: segmentation violation
+10/12/2018 10:26:47(GMT) - runEclipseApp - Running again
+10/12/2018 10:26:57(GMT) - runEclipseApp - FAILED 12: child killed: segmentation violation
+10/12/2018 10:26:57(GMT) - runEclipseApp - Running again
+10/12/2018 10:27:07(GMT) - runEclipseApp - FAILED 13: child killed: segmentation violation
+10/12/2018 10:27:07(GMT) - runEclipseApp - Running again
+10/12/2018 10:27:18(GMT) - runEclipseApp - FAILED 14: child killed: segmentation violation
+10/12/2018 10:27:18(GMT) - runEclipseApp - Running again
+10/12/2018 10:27:28(GMT) - runEclipseApp - FAILED 15: child killed: segmentation violation
+10/12/2018 10:27:28(GMT) - runEclipseApp - Running again
+10/12/2018 10:27:38(GMT) - runEclipseApp - FAILED 16: child killed: segmentation violation
+10/12/2018 10:27:38(GMT) - runEclipseApp - Running again
+10/12/2018 10:27:48(GMT) - runEclipseApp - FAILED 17: child killed: segmentation violation
+10/12/2018 10:27:48(GMT) - runEclipseApp - Running again
+10/12/2018 10:27:58(GMT) - runEclipseApp - FAILED 18: child killed: segmentation violation
+10/12/2018 10:27:58(GMT) - runEclipseApp - Running again
+10/12/2018 10:28:09(GMT) - runEclipseApp - FAILED 19: child killed: segmentation violation
+10/12/2018 10:28:09(GMT) - runEclipseApp - Running again
+10/12/2018 10:28:09(GMT) - runEclipseApp - FAILED 20: child killed: segmentation violation
+10/12/2018 10:28:09(GMT) - runEclipseApp - Can't run again.
+10/12/2018 10:28:09(GMT) - processOtherFeatures - length of features = 71; 1; 0
+10/12/2018 10:28:09(GMT) - processOtherFeatures - JRE state: feature installed; does not need to be processed
+10/12/2018 10:28:09(GMT) - processOtherFeatures - length of features = 71; 2; 0
+10/12/2018 10:28:09(GMT) - processOtherFeatures - ECLIPSECORE state: feature installed; does not need to be processed
+10/12/2018 10:28:09(GMT) - processOtherFeatures - length of features = 71; 3; 0
+10/12/2018 10:28:09(GMT) - processOtherFeatures - ECLIPSE state: feature installed; does not need to be processed
+10/12/2018 10:28:09(GMT) - processOtherFeatures - length of features = 71; 4; 0
+10/12/2018 10:28:09(GMT) - processOtherFeatures - processing DS
+10/12/2018 10:28:09(GMT) - processOtherFeatures - state:initial
+10/12/2018 10:28:09(GMT) - processOtherFeatures - binary:ti_dspack_ibsetup_6.1.0.1449.bin
+10/12/2018 10:28:09(GMT) - processOtherFeatures - location = http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo
+10/12/2018 10:28:09(GMT) - formatUrlForEclipse - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo
+10/12/2018 10:28:09(GMT) - processOtherFeatures - newloc:http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo
+10/12/2018 10:28:09(GMT) - processOtherFeatures - counting = 6; 4  71
+10/12/2018 10:28:09(GMT) - processOtherFeatures - fullrepolist http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo
+10/12/2018 10:28:09(GMT) - processOtherFeatures - fullfeaturelist com.ti.ccstudio.debugserver.linux.feature.group
+10/12/2018 10:28:09(GMT) - runEclipseApp - running cmd "/home/ics-mat/ti/ccsv6/eclipse/eclipse" -application org.eclipse.equinox.p2.director -repository "http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo" -installiu com.ti.ccstudio.debugserver.linux.feature.group -nosplash 
+10/12/2018 10:28:19(GMT) - runEclipseApp - FAILED 0: child killed: segmentation violation
+10/12/2018 10:28:19(GMT) - runEclipseApp - Running again
+10/12/2018 10:28:29(GMT) - runEclipseApp - FAILED 1: child killed: segmentation violation
+10/12/2018 10:28:29(GMT) - runEclipseApp - Running again
+10/12/2018 10:28:39(GMT) - runEclipseApp - FAILED 2: child killed: segmentation violation
+10/12/2018 10:28:39(GMT) - runEclipseApp - Running again
+10/12/2018 10:28:49(GMT) - runEclipseApp - FAILED 3: child killed: segmentation violation
+10/12/2018 10:28:49(GMT) - runEclipseApp - Running again
+10/12/2018 10:29:00(GMT) - runEclipseApp - FAILED 4: child killed: segmentation violation
+10/12/2018 10:29:00(GMT) - runEclipseApp - Running again
+10/12/2018 10:29:10(GMT) - runEclipseApp - FAILED 5: child killed: segmentation violation
+10/12/2018 10:29:10(GMT) - runEclipseApp - Running again
+10/12/2018 10:29:20(GMT) - runEclipseApp - FAILED 6: child killed: segmentation violation
+10/12/2018 10:29:20(GMT) - runEclipseApp - Running again
+10/12/2018 10:29:30(GMT) - runEclipseApp - FAILED 7: child killed: segmentation violation
+10/12/2018 10:29:30(GMT) - runEclipseApp - Running again
+10/12/2018 10:29:40(GMT) - runEclipseApp - FAILED 8: child killed: segmentation violation
+10/12/2018 10:29:40(GMT) - runEclipseApp - Running again
+10/12/2018 10:29:51(GMT) - runEclipseApp - FAILED 9: child killed: segmentation violation
+10/12/2018 10:29:51(GMT) - runEclipseApp - Running again
+10/12/2018 10:30:01(GMT) - runEclipseApp - FAILED 10: child killed: segmentation violation
+10/12/2018 10:30:01(GMT) - runEclipseApp - Running again
+10/12/2018 10:30:11(GMT) - runEclipseApp - FAILED 11: child killed: segmentation violation
+10/12/2018 10:30:11(GMT) - runEclipseApp - Running again
+10/12/2018 10:30:21(GMT) - runEclipseApp - FAILED 12: child killed: segmentation violation
+10/12/2018 10:30:21(GMT) - runEclipseApp - Running again
+10/12/2018 10:30:31(GMT) - runEclipseApp - FAILED 13: child killed: segmentation violation
+10/12/2018 10:30:31(GMT) - runEclipseApp - Running again
+10/12/2018 10:30:41(GMT) - runEclipseApp - FAILED 14: child killed: segmentation violation
+10/12/2018 10:30:41(GMT) - runEclipseApp - Running again
+10/12/2018 10:30:52(GMT) - runEclipseApp - FAILED 15: child killed: segmentation violation
+10/12/2018 10:30:52(GMT) - runEclipseApp - Running again
+10/12/2018 10:31:02(GMT) - runEclipseApp - FAILED 16: child killed: segmentation violation
+10/12/2018 10:31:02(GMT) - runEclipseApp - Running again
+10/12/2018 10:31:12(GMT) - runEclipseApp - FAILED 17: child killed: segmentation violation
+10/12/2018 10:31:12(GMT) - runEclipseApp - Running again
+10/12/2018 10:31:22(GMT) - runEclipseApp - FAILED 18: child killed: segmentation violation
+10/12/2018 10:31:22(GMT) - runEclipseApp - Running again
+10/12/2018 10:31:32(GMT) - runEclipseApp - FAILED 19: child killed: segmentation violation
+10/12/2018 10:31:32(GMT) - runEclipseApp - Running again
+10/12/2018 10:31:32(GMT) - runEclipseApp - FAILED 20: child killed: segmentation violation
+10/12/2018 10:31:32(GMT) - runEclipseApp - Can't run again.
+10/12/2018 10:31:32(GMT) - processOtherFeatures - Processing DS to install
+10/12/2018 10:31:32(GMT) - processOtherFeatures - current state = initial
+10/12/2018 10:31:32(GMT) - processOtherFeatures - location = http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo
+10/12/2018 10:31:32(GMT) - formatUrlForEclipse - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo
+10/12/2018 10:31:32(GMT) - processOtherFeatures - Binary=/home/ics-mat/ti/ccsv6/eclipse/downloads/ti_dspack_ibsetup_6.1.0.1449.bin
+10/12/2018 10:31:32(GMT) - runEclipseApp - running cmd "/home/ics-mat/ti/ccsv6/eclipse/eclipse" -application org.eclipse.equinox.p2.director -uninstallIU com.ti.ccstudio.debugserver.linux.feature.group -nosplash 
+10/12/2018 10:31:43(GMT) - runEclipseApp - FAILED 0: child killed: segmentation violation
+10/12/2018 10:31:43(GMT) - runEclipseApp - Running again
+10/12/2018 10:31:53(GMT) - runEclipseApp - FAILED 1: child killed: segmentation violation
+10/12/2018 10:31:53(GMT) - runEclipseApp - Running again
+10/12/2018 10:32:03(GMT) - runEclipseApp - FAILED 2: child killed: segmentation violation
+10/12/2018 10:32:03(GMT) - runEclipseApp - Running again
+10/12/2018 10:32:13(GMT) - runEclipseApp - FAILED 3: child killed: segmentation violation
+10/12/2018 10:32:13(GMT) - runEclipseApp - Running again
+10/12/2018 10:32:23(GMT) - runEclipseApp - FAILED 4: child killed: segmentation violation
+10/12/2018 10:32:23(GMT) - runEclipseApp - Running again
+10/12/2018 10:32:34(GMT) - runEclipseApp - FAILED 5: child killed: segmentation violation
+10/12/2018 10:32:34(GMT) - runEclipseApp - Running again
+10/12/2018 10:32:44(GMT) - runEclipseApp - FAILED 6: child killed: segmentation violation
+10/12/2018 10:32:44(GMT) - runEclipseApp - Running again
+10/12/2018 10:32:54(GMT) - runEclipseApp - FAILED 7: child killed: segmentation violation
+10/12/2018 10:32:54(GMT) - runEclipseApp - Running again
+10/12/2018 10:33:04(GMT) - runEclipseApp - FAILED 8: child killed: segmentation violation
+10/12/2018 10:33:04(GMT) - runEclipseApp - Running again
+10/12/2018 10:33:14(GMT) - runEclipseApp - FAILED 9: child killed: segmentation violation
+10/12/2018 10:33:14(GMT) - runEclipseApp - Running again
+10/12/2018 10:33:24(GMT) - runEclipseApp - FAILED 10: child killed: segmentation violation
+10/12/2018 10:33:24(GMT) - runEclipseApp - Running again
+10/12/2018 10:33:35(GMT) - runEclipseApp - FAILED 11: child killed: segmentation violation
+10/12/2018 10:33:35(GMT) - runEclipseApp - Running again
+10/12/2018 10:33:45(GMT) - runEclipseApp - FAILED 12: child killed: segmentation violation
+10/12/2018 10:33:45(GMT) - runEclipseApp - Running again
+10/12/2018 10:33:55(GMT) - runEclipseApp - FAILED 13: child killed: segmentation violation
+10/12/2018 10:33:55(GMT) - runEclipseApp - Running again
+10/12/2018 10:34:05(GMT) - runEclipseApp - FAILED 14: child killed: segmentation violation
+10/12/2018 10:34:05(GMT) - runEclipseApp - Running again
+10/12/2018 10:34:15(GMT) - runEclipseApp - FAILED 15: child killed: segmentation violation
+10/12/2018 10:34:15(GMT) - runEclipseApp - Running again
+10/12/2018 10:34:26(GMT) - runEclipseApp - FAILED 16: child killed: segmentation violation
+10/12/2018 10:34:26(GMT) - runEclipseApp - Running again
+10/12/2018 10:34:36(GMT) - runEclipseApp - FAILED 17: child killed: segmentation violation
+10/12/2018 10:34:36(GMT) - runEclipseApp - Running again
+10/12/2018 10:34:46(GMT) - runEclipseApp - FAILED 18: child killed: segmentation violation
+10/12/2018 10:34:46(GMT) - runEclipseApp - Running again
+10/12/2018 10:34:56(GMT) - runEclipseApp - FAILED 19: child killed: segmentation violation
+10/12/2018 10:34:56(GMT) - runEclipseApp - Running again
+10/12/2018 10:34:56(GMT) - runEclipseApp - FAILED 20: child killed: segmentation violation
+10/12/2018 10:34:56(GMT) - runEclipseApp - Can't run again.
+10/12/2018 10:34:56(GMT) - runEclipseApp - running cmd "/home/ics-mat/ti/ccsv6/eclipse/eclipse" -application org.eclipse.equinox.p2.director -repository "http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/featurerepo" -installIU com.ti.ccstudio.debugserver.linux.feature.group -nosplash 
+10/12/2018 10:35:06(GMT) - runEclipseApp - FAILED 0: child killed: segmentation violation
+10/12/2018 10:35:06(GMT) - runEclipseApp - Running again
+10/12/2018 10:35:17(GMT) - runEclipseApp - FAILED 1: child killed: segmentation violation
+10/12/2018 10:35:17(GMT) - runEclipseApp - Running again
+10/12/2018 10:35:27(GMT) - runEclipseApp - FAILED 2: child killed: segmentation violation
+10/12/2018 10:35:27(GMT) - runEclipseApp - Running again
+10/12/2018 10:35:37(GMT) - runEclipseApp - FAILED 3: child killed: segmentation violation
+10/12/2018 10:35:37(GMT) - runEclipseApp - Running again
+10/12/2018 10:35:47(GMT) - runEclipseApp - FAILED 4: child killed: segmentation violation
+10/12/2018 10:35:47(GMT) - runEclipseApp - Running again
+10/12/2018 10:35:57(GMT) - runEclipseApp - FAILED 5: child killed: segmentation violation
+10/12/2018 10:35:57(GMT) - runEclipseApp - Running again
+10/12/2018 10:36:08(GMT) - runEclipseApp - FAILED 6: child killed: segmentation violation
+10/12/2018 10:36:08(GMT) - runEclipseApp - Running again
+10/12/2018 10:36:18(GMT) - runEclipseApp - FAILED 7: child killed: segmentation violation
+10/12/2018 10:36:18(GMT) - runEclipseApp - Running again
+10/12/2018 10:36:28(GMT) - runEclipseApp - FAILED 8: child killed: segmentation violation
+10/12/2018 10:36:28(GMT) - runEclipseApp - Running again
+10/12/2018 10:36:38(GMT) - runEclipseApp - FAILED 9: child killed: segmentation violation
+10/12/2018 10:36:38(GMT) - runEclipseApp - Running again
+10/12/2018 10:36:48(GMT) - runEclipseApp - FAILED 10: child killed: segmentation violation
+10/12/2018 10:36:48(GMT) - runEclipseApp - Running again
+10/12/2018 10:36:58(GMT) - runEclipseApp - FAILED 11: child killed: segmentation violation
+10/12/2018 10:36:58(GMT) - runEclipseApp - Running again
+10/12/2018 10:37:09(GMT) - runEclipseApp - FAILED 12: child killed: segmentation violation
+10/12/2018 10:37:09(GMT) - runEclipseApp - Running again
+10/12/2018 10:37:19(GMT) - runEclipseApp - FAILED 13: child killed: segmentation violation
+10/12/2018 10:37:19(GMT) - runEclipseApp - Running again
+10/12/2018 10:37:29(GMT) - runEclipseApp - FAILED 14: child killed: segmentation violation
+10/12/2018 10:37:29(GMT) - runEclipseApp - Running again
+10/12/2018 10:37:39(GMT) - runEclipseApp - FAILED 15: child killed: segmentation violation
+10/12/2018 10:37:39(GMT) - runEclipseApp - Running again
+10/12/2018 10:37:49(GMT) - runEclipseApp - FAILED 16: child killed: segmentation violation
+10/12/2018 10:37:49(GMT) - runEclipseApp - Running again
+10/12/2018 10:38:00(GMT) - runEclipseApp - FAILED 17: child killed: segmentation violation
+10/12/2018 10:38:00(GMT) - runEclipseApp - Running again
+10/12/2018 10:38:10(GMT) - runEclipseApp - FAILED 18: child killed: segmentation violation
+10/12/2018 10:38:10(GMT) - runEclipseApp - Running again
+10/12/2018 10:38:20(GMT) - runEclipseApp - FAILED 19: child killed: segmentation violation
+10/12/2018 10:38:20(GMT) - runEclipseApp - Running again
+10/12/2018 10:38:20(GMT) - runEclipseApp - FAILED 20: child killed: segmentation violation
+10/12/2018 10:38:20(GMT) - runEclipseApp - Can't run again.
+10/12/2018 10:38:20(GMT) - processOtherFeatures - ti_dspack_ibsetup_6.1.0.1449.bin does not exist at /home/ics-mat/ti/ccsv6/eclipse/downloads/ti_dspack_ibsetup_6.1.0.1449.bin. Setting state to feature downloaded
+10/12/2018 10:38:20(GMT) - processOtherFeatures - new state: feature downloaded
+10/12/2018 10:38:20(GMT) - checkStatus - CCS_ERROR: Installer failed to install com.ti.ccstudio.debugserver.linux correctly.
+Please submit these logs to TI for analysis using the next dialog.
+You may also visit the TI E2E CCS Support forum for additional help.
+
+The install logs are located in: /home/ics-mat/ti/ccsv6/install_logs.
+10/12/2018 10:38:20(GMT) - checkStatus - file does not exist /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/eclipse/ws/.metadata/.log
+10/12/2018 10:38:20(GMT) - checkStatus - saving /home/ics-mat/ti/ccsv6/install_logs
+10/12/2018 10:38:20(GMT) - checkStatus - CCS_ERROR: Code Composer Studio v6 installation failed.
+10/12/2018 10:38:20(GMT) - formatUrlForEclipse - external url http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/failed
+10/12/2018 10:38:20(GMT) - downloadMarker - CCS_INFO: Downloading marker file: http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/failed
+10/12/2018 10:38:20(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/failed from http://software-dl.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/failed
+10/12/2018 10:38:21(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:38:21(GMT) - httpCopy - httpstate= Location: http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/failed
+10/12/2018 10:38:21(GMT) - httpCopy - Redirecting Location:http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/failed
+10/12/2018 10:38:21(GMT) - httpCopy - Downloading /tmp/ccs_18fc1813-2e83-4cd6-58df-f1712fa0ee6d/failed from http://downloads.ti.com/ccs/esd/CCSv6/CCS6.1.2.00015_linux/baserepo/failed
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= Server: Apache
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= Content-Type: text/html; charset=iso-8859-1
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= Content-Length: 16
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= Date: Fri, 12 Oct 2018 10:38:22 GMT
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= Connection: close
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= Set-Cookie: ti_geo=country=DE|city=STUTTGART|continent=EU|tc_ip=134.105.93.12; path=/; domain=.ti.com
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= Set-Cookie: ti_perf=throughput=vhigh|network=|network_type=|bw=5000|proxy=; path=/; domain=.ti.com
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= Set-Cookie: ti_ua=Tcl%20http%20client%20package%202.5.5; path=/; domain=.ti.com
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= Set-Cookie: ti_bm=; path=/; domain=.ti.com
+10/12/2018 10:38:22(GMT) - httpCopy - httpstate= content-disposition: attachment; filename="failed"
